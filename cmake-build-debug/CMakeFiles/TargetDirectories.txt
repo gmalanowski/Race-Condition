@@ -1,3 +1,0 @@
-C:/Users/Damian/CLionProjects/Race-Condition/cmake-build-debug/CMakeFiles/MergeSortRaceCondition.dir
-C:/Users/Damian/CLionProjects/Race-Condition/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Damian/CLionProjects/Race-Condition/cmake-build-debug/CMakeFiles/rebuild_cache.dir
