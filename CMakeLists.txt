@@ -10,6 +10,6 @@ add_executable(MergeSortRaceCondition main.cpp
         DataGenerator.h
         CsvFileHandler.cpp
         CsvFileHandler.h
-        ArrayFuntions.tpp
-        ArrayFuntions.h
+        ArrayFunctions.tpp
+        ArrayFunctions.h
 )
