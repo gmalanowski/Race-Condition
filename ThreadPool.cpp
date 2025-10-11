@@ -1,43 +1,52 @@
 #include "ThreadPool.h"
+#include <utility>      // std::move
+#include <exception>    // std::exception
 
-// Constructor implementation
+// Start worker threads
 ThreadPool::ThreadPool(size_t numThreads) : stop(false) {
+    workers.reserve(numThreads);
     for (size_t i = 0; i < numThreads; ++i) {
-        workers.emplace_back([this] {
-            this->worker_loop();
-        });
+        workers.emplace_back([this] { worker_loop(); });
     }
 }
 
-// The worker thread's main loop
+// Worker main loop: wait for work; exit when stop && tasks empty
 void ThreadPool::worker_loop() {
-    while (true) {
+    for (;;) {
         std::function<void()> task;
+
         {
-            std::unique_lock<std::mutex> lock(this->queue_mutex);
-            this->condition.wait(lock, [this] {
-                return this->stop || !this->tasks.empty();
+            std::unique_lock<std::mutex> lock(queue_mutex);
+            condition.wait(lock, [this] {
+                return stop || !tasks.empty();
             });
 
-            if (this->stop && this->tasks.empty()) {
+            if (stop && tasks.empty())
                 return;
-            }
 
-            task = std::move(this->tasks.front());
-            this->tasks.pop();
+            task = std::move(tasks.front());
+            tasks.pop();
         }
-        task();
+
+        // Never let an exception kill the worker thread
+        try {
+            task();
+        } catch (...) {
+            continue;
+        }
     }
 }
 
-// Destructor implementation
+// Stop pool and join all workers
 ThreadPool::~ThreadPool() {
     {
         std::unique_lock<std::mutex> lock(queue_mutex);
         stop = true;
     }
     condition.notify_all();
+
     for (std::thread &worker : workers) {
-        worker.join();
+        if (worker.joinable())
+            worker.join();
     }
 }
