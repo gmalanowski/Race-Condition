@@ -7,16 +7,17 @@
 #include "ArrayFunctions.h"
 #include "SortingAlgorithms.h"
 #include "DataGenerator.h"
+#include "CsvFileHandler.h"
 
 using namespace std;
 
 int main() {
     /*=============================================================*/
     /* ---------------- CONFIGURATION -----------------------------*/
-    const int num_threads = 300; // auto-detect cores
+    const int num_threads = 300;
     ThreadPool pool(num_threads);
 
-    int arraySize = 200000;    // size of the array
+    int arraySize = 200000;
     int minValue = -100000;
     int maxValue = 300000;
     float percentageSorted = 0.0f;
@@ -26,6 +27,8 @@ int main() {
     cout << "=== THREADING EXPERIMENT ===" << endl;
     cout << "Threads: " << num_threads << ", Array size: " << arraySize << endl;
 
+    CsvFileHandler::beginCSV(fileName, arraySize);
+
     /*=============================================================*/
     /* ---------------- SINGLE-THREAD TEST ------------------------*/
     vector<int> array = DataGenerator::generateInt(arraySize, minValue, maxValue, percentageSorted, direction);
@@ -34,9 +37,10 @@ int main() {
     SortingAlgorithms::mergeSort(array, 0, array.size() - 1);
     auto endSingle = chrono::high_resolution_clock::now();
     double timeSingle = chrono::duration<double>(endSingle - startSingle).count() * 1000.0;
+    bool singleSorted = ArrayFunctions::sortedAscending(array);
 
     cout << "\n[1] Single-threaded merge sort" << endl;
-    cout << "Time: " << timeSingle << " ms" << (ArrayFunctions::sortedAscending(array) ? " ✅" : " ❌") << endl;
+    cout << "Time: " << timeSingle << " ms" << (singleSorted ? " ✅" : " ❌") << endl;
 
     /*=============================================================*/
     /* ---------------- MULTI-THREAD TEST -------------------------*/
@@ -46,9 +50,10 @@ int main() {
     SortingAlgorithms::parallelMergeSort(pool, arrayParallel, 0, arrayParallel.size() - 1);
     auto endParallel = chrono::high_resolution_clock::now();
     double timeParallel = chrono::duration<double>(endParallel - startParallel).count() * 1000.0;
+    bool parallelSorted = ArrayFunctions::sortedAscending(arrayParallel);
 
     cout << "\n[2] Multi-threaded merge sort (safe)" << endl;
-    cout << "Time: " << timeParallel << " ms" << (ArrayFunctions::sortedAscending(arrayParallel) ? " ✅" : " ❌") << endl;
+    cout << "Time: " << timeParallel << " ms" << (parallelSorted ? " ✅" : " ❌") << endl;
 
     /*=============================================================*/
     /* ---------------- RACE CONDITION DEMO -----------------------*/
@@ -66,20 +71,19 @@ int main() {
     // (a) Race condition — no synchronization
     for (int i = 0; i < n_tasks; ++i) {
         futures_race.push_back(racePool.submit([&counter_race]() {
-            // UNSAFE access to shared data -> race condition!
-            counter_race++;
+            counter_race++; // UNSAFE access to shared data
         }));
     }
 
-    // (b) Safe multi-threaded version — synchronized with mutex
+    // (b) Safe version — with mutex
     for (int i = 0; i < n_tasks; ++i) {
         futures_safe.push_back(racePool.submit([&counter_safe, &counter_mutex]() {
-            std::lock_guard<std::mutex> lock(counter_mutex); // protects access
+            std::lock_guard<std::mutex> lock(counter_mutex);
             counter_safe++;
         }));
     }
 
-    // Wait for all tasks to finish
+    // Wait for both groups
     for (auto& f : futures_race) f.get();
     for (auto& f : futures_safe) f.get();
 
@@ -88,11 +92,16 @@ int main() {
     cout << "Synchronized counter:   " << counter_safe << " ✅" << endl;
 
     /*=============================================================*/
+    /* ---------------- SAVE RESULTS TO CSV -----------------------*/
+    CsvFileHandler::saveTo(fileName, timeSingle, singleSorted, timeParallel, parallelSorted, 0);
+    cout << "\nResults saved to " << fileName << endl;
+
+    /*=============================================================*/
     /* ---------------- SUMMARY ----------------------------------*/
     cout << "\n=== SUMMARY ===" << endl;
     cout << "Single-thread sort time:   " << timeSingle   << " ms" << endl;
     cout << "Multi-thread sort time:    " << timeParallel << " ms" << endl;
-    cout << "Race condition test done — see above results." << endl;
+    cout << "Race condition demo done — see above results." << endl;
 
     cout << "\nProgram finished successfully." << endl;
     return 0;
