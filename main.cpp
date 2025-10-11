@@ -93,7 +93,11 @@ int main() {
 
     /*=============================================================*/
     /* ---------------- SAVE RESULTS TO CSV -----------------------*/
-    CsvFileHandler::saveTo(fileName, timeSingle, singleSorted, timeParallel, parallelSorted, 0);
+    CsvFileHandler::saveTo(fileName,
+        timeSingle, singleSorted,
+        timeParallel, parallelSorted,
+        num_threads, counter_race, counter_safe, arraySize);
+
     cout << "\nResults saved to " << fileName << endl;
 
     /*=============================================================*/
