@@ -13,7 +13,7 @@ using namespace std;
 int main() {
     /*=============================================================*/
     /* ---------------- CONFIGURATION -----------------------------*/
-    const int num_threads = std::thread::hardware_concurrency(); // auto-detect cores
+    const int num_threads = 300; // auto-detect cores
     ThreadPool pool(num_threads);
 
     int arraySize = 200000;    // size of the array
