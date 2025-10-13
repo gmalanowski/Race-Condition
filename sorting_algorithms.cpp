@@ -1,7 +1,9 @@
 #include "sorting_algorithms.h"
+#include "ThreadPool.h"
 #include <algorithm>
 #include <thread>
 #include <vector>
+#include <future>
 
 // ============================================
 // Helper functions for merge sort
@@ -179,6 +181,64 @@ void heapSort(std::vector<int> &arr) {
 
 void stlSort(std::vector<int> &arr) {
     std::sort(arr.begin(), arr.end());
+}
+
+// ============================================
+// ThreadPool-based merge sort
+// ============================================
+
+void mergeSortThreadPool(std::vector<int> &arr, ThreadPool &pool) {
+    if (arr.size() <= 1) return;
+
+    // Determine the number of chunks to split into
+    // Use a reasonable chunk size to avoid too much overhead
+    constexpr size_t MIN_CHUNK_SIZE = 2048;
+    size_t num_chunks = (arr.size() + MIN_CHUNK_SIZE - 1) / MIN_CHUNK_SIZE;
+
+    // If only one chunk, just sort sequentially
+    if (num_chunks <= 1) {
+        mergeSortHelper(arr, 0, arr.size() - 1);
+        return;
+    }
+
+    // Calculate actual chunk size
+    size_t chunk_size = (arr.size() + num_chunks - 1) / num_chunks;
+
+    // Sort each chunk in parallel using the thread pool
+    std::vector<std::future<void>> futures;
+    futures.reserve(num_chunks);
+
+    for (size_t i = 0; i < num_chunks; ++i) {
+        size_t start = i * chunk_size;
+        size_t end = std::min(start + chunk_size - 1, arr.size() - 1);
+
+        if (start <= end) {
+            futures.push_back(pool.submit([&arr, start, end]() {
+                mergeSortHelper(arr, start, end);
+            }));
+        }
+    }
+
+    // Wait for all chunks to be sorted
+    for (auto &fut : futures) {
+        fut.get();
+    }
+
+    // Now merge the sorted chunks iteratively
+    // This is done sequentially on the main thread (no blocking in worker threads!)
+    size_t current_chunk_size = chunk_size;
+    while (current_chunk_size < arr.size()) {
+        for (size_t i = 0; i < arr.size(); i += 2 * current_chunk_size) {
+            size_t left = i;
+            size_t mid = std::min(i + current_chunk_size - 1, arr.size() - 1);
+            size_t right = std::min(i + 2 * current_chunk_size - 1, arr.size() - 1);
+
+            if (mid < right) {
+                merge(arr, left, mid, right);
+            }
+        }
+        current_chunk_size *= 2;
+    }
 }
 
 // ============================================

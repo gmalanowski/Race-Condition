@@ -4,9 +4,10 @@
 #include <cstddef>
 
 struct BenchmarkConfig {
-    size_t array_size = 1000000;
-    int iterations = 25;
+    size_t array_size = 100000;
+    int iterations = 100;
     int thread_count = 8;
+    int threadpool_size = 8;
     unsigned int random_seed = 42;
     const char *output_file = "benchmark_results.csv";
 };

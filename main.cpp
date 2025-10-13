@@ -3,6 +3,7 @@
 #include "config.h"
 #include "benchmark.h"
 #include "sorting_algorithms.h"
+#include "ThreadPool.h"
 
 int main() {
     BenchmarkConfig config;
@@ -14,8 +15,12 @@ int main() {
     std::cout << "  Array size: " << config.array_size << " elements" << std::endl;
     std::cout << "  Iterations: " << config.iterations << " per algorithm" << std::endl;
     std::cout << "  Thread count: " << config.thread_count << std::endl;
+    std::cout << "  ThreadPool size: " << config.threadpool_size << std::endl;
     std::cout << "  Output file: " << config.output_file << std::endl;
     std::cout << "========================================\n" << std::endl;
+
+    // Create ThreadPool for ThreadPool-based merge sort
+    ThreadPool pool(config.threadpool_size);
 
     // Create benchmark runner
     BenchmarkRunner benchmark(config);
@@ -23,8 +28,12 @@ int main() {
     // Run benchmarks for each algorithm
     benchmark.runAlgorithm("Single-Threaded Merge Sort", mergeSortSingleThreaded);
 
-    benchmark.runAlgorithm("Multi-Threaded Merge Sort", [&config](std::vector<int> &arr) {
+    benchmark.runAlgorithm("Multi-Threaded Merge Sort (Recursive)", [&config](std::vector<int> &arr) {
         mergeSortMultiThreaded(arr, config.thread_count);
+    });
+
+    benchmark.runAlgorithm("Multi-Threaded Merge Sort (ThreadPool)", [&pool](std::vector<int> &arr) {
+        mergeSortThreadPool(arr, pool);
     });
 
     benchmark.runAlgorithm("Quick Sort", quickSort);

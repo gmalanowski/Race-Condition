@@ -17,6 +17,7 @@ add_executable(untitled
         main.cpp
         sorting_algorithms.cpp
         benchmark.cpp
+        ThreadPool.cpp
 )
 
 target_link_libraries(untitled PRIVATE Threads::Threads)

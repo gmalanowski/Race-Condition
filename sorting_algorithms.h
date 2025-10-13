@@ -3,11 +3,17 @@
 
 #include <vector>
 
+// Forward declaration
+class ThreadPool;
+
 // Single-threaded merge sort
 void mergeSortSingleThreaded(std::vector<int> & arr);
 
-// Multi-threaded merge sort
+// Multi-threaded merge sort (recursive)
 void mergeSortMultiThreaded(std::vector<int> &arr, int thread_count);
+
+// ThreadPool-based merge sort
+void mergeSortThreadPool(std::vector<int> &arr, ThreadPool &pool);
 
 // Quick sort (single-threaded)
 void quickSort(std::vector<int> & arr);
