@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 cmake_minimum_required(VERSION 3.30)
 project(MergeSortRaceCondition)
+=======
+cmake_minimum_required(VERSION 3.30.5)
+project(untitled)
+>>>>>>> Stashed changes
 
 set(CMAKE_CXX_STANDARD 20)
 
