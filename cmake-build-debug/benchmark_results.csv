@@ -1,601 +1,601 @@
 Algorithm,ArraySize,Iteration,TimeMicroseconds,TimeMilliseconds,IsSorted
-Single-Threaded Merge Sort,100000,1,59547.00,59.55,true
-Single-Threaded Merge Sort,100000,2,61471.00,61.47,true
-Single-Threaded Merge Sort,100000,3,65817.00,65.82,true
-Single-Threaded Merge Sort,100000,4,69841.00,69.84,true
-Single-Threaded Merge Sort,100000,5,62637.00,62.64,true
-Single-Threaded Merge Sort,100000,6,57104.00,57.10,true
-Single-Threaded Merge Sort,100000,7,55163.00,55.16,true
-Single-Threaded Merge Sort,100000,8,85118.00,85.12,true
-Single-Threaded Merge Sort,100000,9,61092.00,61.09,true
-Single-Threaded Merge Sort,100000,10,57459.00,57.46,true
-Single-Threaded Merge Sort,100000,11,59610.00,59.61,true
-Single-Threaded Merge Sort,100000,12,55390.00,55.39,true
-Single-Threaded Merge Sort,100000,13,59552.00,59.55,true
-Single-Threaded Merge Sort,100000,14,58641.00,58.64,true
-Single-Threaded Merge Sort,100000,15,56452.00,56.45,true
-Single-Threaded Merge Sort,100000,16,52517.00,52.52,true
-Single-Threaded Merge Sort,100000,17,53014.00,53.01,true
-Single-Threaded Merge Sort,100000,18,60036.00,60.04,true
-Single-Threaded Merge Sort,100000,19,52971.00,52.97,true
-Single-Threaded Merge Sort,100000,20,54468.00,54.47,true
-Single-Threaded Merge Sort,100000,21,53898.00,53.90,true
-Single-Threaded Merge Sort,100000,22,53087.00,53.09,true
-Single-Threaded Merge Sort,100000,23,59675.00,59.67,true
-Single-Threaded Merge Sort,100000,24,52123.00,52.12,true
-Single-Threaded Merge Sort,100000,25,64389.00,64.39,true
-Single-Threaded Merge Sort,100000,26,54946.00,54.95,true
-Single-Threaded Merge Sort,100000,27,56285.00,56.28,true
-Single-Threaded Merge Sort,100000,28,55297.00,55.30,true
-Single-Threaded Merge Sort,100000,29,58746.00,58.75,true
-Single-Threaded Merge Sort,100000,30,50050.00,50.05,true
-Single-Threaded Merge Sort,100000,31,63598.00,63.60,true
-Single-Threaded Merge Sort,100000,32,53730.00,53.73,true
-Single-Threaded Merge Sort,100000,33,55997.00,56.00,true
-Single-Threaded Merge Sort,100000,34,59151.00,59.15,true
-Single-Threaded Merge Sort,100000,35,62843.00,62.84,true
-Single-Threaded Merge Sort,100000,36,54381.00,54.38,true
-Single-Threaded Merge Sort,100000,37,59663.00,59.66,true
-Single-Threaded Merge Sort,100000,38,48854.00,48.85,true
-Single-Threaded Merge Sort,100000,39,50512.00,50.51,true
-Single-Threaded Merge Sort,100000,40,47606.00,47.61,true
-Single-Threaded Merge Sort,100000,41,51420.00,51.42,true
-Single-Threaded Merge Sort,100000,42,48723.00,48.72,true
-Single-Threaded Merge Sort,100000,43,53065.00,53.06,true
-Single-Threaded Merge Sort,100000,44,49916.00,49.92,true
-Single-Threaded Merge Sort,100000,45,53733.00,53.73,true
-Single-Threaded Merge Sort,100000,46,49324.00,49.32,true
-Single-Threaded Merge Sort,100000,47,54626.00,54.63,true
-Single-Threaded Merge Sort,100000,48,52609.00,52.61,true
-Single-Threaded Merge Sort,100000,49,52922.00,52.92,true
-Single-Threaded Merge Sort,100000,50,48301.00,48.30,true
-Single-Threaded Merge Sort,100000,51,51696.00,51.70,true
-Single-Threaded Merge Sort,100000,52,49210.00,49.21,true
-Single-Threaded Merge Sort,100000,53,51087.00,51.09,true
-Single-Threaded Merge Sort,100000,54,54451.00,54.45,true
-Single-Threaded Merge Sort,100000,55,51616.00,51.62,true
-Single-Threaded Merge Sort,100000,56,51668.00,51.67,true
-Single-Threaded Merge Sort,100000,57,51006.00,51.01,true
-Single-Threaded Merge Sort,100000,58,52236.00,52.24,true
-Single-Threaded Merge Sort,100000,59,47100.00,47.10,true
-Single-Threaded Merge Sort,100000,60,47624.00,47.62,true
-Single-Threaded Merge Sort,100000,61,50147.00,50.15,true
-Single-Threaded Merge Sort,100000,62,48357.00,48.36,true
-Single-Threaded Merge Sort,100000,63,51178.00,51.18,true
-Single-Threaded Merge Sort,100000,64,52732.00,52.73,true
-Single-Threaded Merge Sort,100000,65,47521.00,47.52,true
-Single-Threaded Merge Sort,100000,66,53947.00,53.95,true
-Single-Threaded Merge Sort,100000,67,49927.00,49.93,true
-Single-Threaded Merge Sort,100000,68,47838.00,47.84,true
-Single-Threaded Merge Sort,100000,69,52517.00,52.52,true
-Single-Threaded Merge Sort,100000,70,52940.00,52.94,true
-Single-Threaded Merge Sort,100000,71,46785.00,46.78,true
-Single-Threaded Merge Sort,100000,72,45361.00,45.36,true
-Single-Threaded Merge Sort,100000,73,47026.00,47.03,true
-Single-Threaded Merge Sort,100000,74,49267.00,49.27,true
-Single-Threaded Merge Sort,100000,75,56815.00,56.81,true
-Single-Threaded Merge Sort,100000,76,59857.00,59.86,true
-Single-Threaded Merge Sort,100000,77,50361.00,50.36,true
-Single-Threaded Merge Sort,100000,78,54374.00,54.37,true
-Single-Threaded Merge Sort,100000,79,56011.00,56.01,true
-Single-Threaded Merge Sort,100000,80,53955.00,53.95,true
-Single-Threaded Merge Sort,100000,81,53982.00,53.98,true
-Single-Threaded Merge Sort,100000,82,48982.00,48.98,true
-Single-Threaded Merge Sort,100000,83,55174.00,55.17,true
-Single-Threaded Merge Sort,100000,84,52038.00,52.04,true
-Single-Threaded Merge Sort,100000,85,51948.00,51.95,true
-Single-Threaded Merge Sort,100000,86,51315.00,51.31,true
-Single-Threaded Merge Sort,100000,87,47765.00,47.77,true
-Single-Threaded Merge Sort,100000,88,50392.00,50.39,true
-Single-Threaded Merge Sort,100000,89,55496.00,55.50,true
-Single-Threaded Merge Sort,100000,90,51430.00,51.43,true
-Single-Threaded Merge Sort,100000,91,51555.00,51.55,true
-Single-Threaded Merge Sort,100000,92,52977.00,52.98,true
-Single-Threaded Merge Sort,100000,93,48970.00,48.97,true
-Single-Threaded Merge Sort,100000,94,52153.00,52.15,true
-Single-Threaded Merge Sort,100000,95,53387.00,53.39,true
-Single-Threaded Merge Sort,100000,96,53210.00,53.21,true
-Single-Threaded Merge Sort,100000,97,50549.00,50.55,true
-Single-Threaded Merge Sort,100000,98,51422.00,51.42,true
-Single-Threaded Merge Sort,100000,99,48989.00,48.99,true
-Single-Threaded Merge Sort,100000,100,52658.00,52.66,true
-Multi-Threaded Merge Sort (Recursive),100000,1,12640.00,12.64,true
-Multi-Threaded Merge Sort (Recursive),100000,2,13171.00,13.17,true
-Multi-Threaded Merge Sort (Recursive),100000,3,14925.00,14.93,true
-Multi-Threaded Merge Sort (Recursive),100000,4,14580.00,14.58,true
-Multi-Threaded Merge Sort (Recursive),100000,5,14108.00,14.11,true
-Multi-Threaded Merge Sort (Recursive),100000,6,14867.00,14.87,true
-Multi-Threaded Merge Sort (Recursive),100000,7,14660.00,14.66,true
-Multi-Threaded Merge Sort (Recursive),100000,8,14016.00,14.02,true
-Multi-Threaded Merge Sort (Recursive),100000,9,13475.00,13.47,true
-Multi-Threaded Merge Sort (Recursive),100000,10,14187.00,14.19,true
-Multi-Threaded Merge Sort (Recursive),100000,11,14013.00,14.01,true
-Multi-Threaded Merge Sort (Recursive),100000,12,13305.00,13.30,true
-Multi-Threaded Merge Sort (Recursive),100000,13,13690.00,13.69,true
-Multi-Threaded Merge Sort (Recursive),100000,14,13743.00,13.74,true
-Multi-Threaded Merge Sort (Recursive),100000,15,13953.00,13.95,true
-Multi-Threaded Merge Sort (Recursive),100000,16,14609.00,14.61,true
-Multi-Threaded Merge Sort (Recursive),100000,17,13145.00,13.14,true
-Multi-Threaded Merge Sort (Recursive),100000,18,15647.00,15.65,true
-Multi-Threaded Merge Sort (Recursive),100000,19,18108.00,18.11,true
-Multi-Threaded Merge Sort (Recursive),100000,20,15483.00,15.48,true
-Multi-Threaded Merge Sort (Recursive),100000,21,14000.00,14.00,true
-Multi-Threaded Merge Sort (Recursive),100000,22,13909.00,13.91,true
-Multi-Threaded Merge Sort (Recursive),100000,23,13898.00,13.90,true
-Multi-Threaded Merge Sort (Recursive),100000,24,14094.00,14.09,true
-Multi-Threaded Merge Sort (Recursive),100000,25,13367.00,13.37,true
-Multi-Threaded Merge Sort (Recursive),100000,26,13880.00,13.88,true
-Multi-Threaded Merge Sort (Recursive),100000,27,14436.00,14.44,true
-Multi-Threaded Merge Sort (Recursive),100000,28,14045.00,14.04,true
-Multi-Threaded Merge Sort (Recursive),100000,29,13983.00,13.98,true
-Multi-Threaded Merge Sort (Recursive),100000,30,14011.00,14.01,true
-Multi-Threaded Merge Sort (Recursive),100000,31,14311.00,14.31,true
-Multi-Threaded Merge Sort (Recursive),100000,32,14104.00,14.10,true
-Multi-Threaded Merge Sort (Recursive),100000,33,13779.00,13.78,true
-Multi-Threaded Merge Sort (Recursive),100000,34,14182.00,14.18,true
-Multi-Threaded Merge Sort (Recursive),100000,35,13854.00,13.85,true
-Multi-Threaded Merge Sort (Recursive),100000,36,14075.00,14.07,true
-Multi-Threaded Merge Sort (Recursive),100000,37,13859.00,13.86,true
-Multi-Threaded Merge Sort (Recursive),100000,38,14904.00,14.90,true
-Multi-Threaded Merge Sort (Recursive),100000,39,13972.00,13.97,true
-Multi-Threaded Merge Sort (Recursive),100000,40,15196.00,15.20,true
-Multi-Threaded Merge Sort (Recursive),100000,41,13551.00,13.55,true
-Multi-Threaded Merge Sort (Recursive),100000,42,14021.00,14.02,true
-Multi-Threaded Merge Sort (Recursive),100000,43,14588.00,14.59,true
-Multi-Threaded Merge Sort (Recursive),100000,44,14218.00,14.22,true
-Multi-Threaded Merge Sort (Recursive),100000,45,14479.00,14.48,true
-Multi-Threaded Merge Sort (Recursive),100000,46,13610.00,13.61,true
-Multi-Threaded Merge Sort (Recursive),100000,47,13334.00,13.33,true
-Multi-Threaded Merge Sort (Recursive),100000,48,13665.00,13.66,true
-Multi-Threaded Merge Sort (Recursive),100000,49,13792.00,13.79,true
-Multi-Threaded Merge Sort (Recursive),100000,50,14110.00,14.11,true
-Multi-Threaded Merge Sort (Recursive),100000,51,14067.00,14.07,true
-Multi-Threaded Merge Sort (Recursive),100000,52,14457.00,14.46,true
-Multi-Threaded Merge Sort (Recursive),100000,53,15519.00,15.52,true
-Multi-Threaded Merge Sort (Recursive),100000,54,15449.00,15.45,true
-Multi-Threaded Merge Sort (Recursive),100000,55,15651.00,15.65,true
-Multi-Threaded Merge Sort (Recursive),100000,56,15326.00,15.33,true
-Multi-Threaded Merge Sort (Recursive),100000,57,15177.00,15.18,true
-Multi-Threaded Merge Sort (Recursive),100000,58,16108.00,16.11,true
-Multi-Threaded Merge Sort (Recursive),100000,59,14945.00,14.95,true
-Multi-Threaded Merge Sort (Recursive),100000,60,14484.00,14.48,true
-Multi-Threaded Merge Sort (Recursive),100000,61,13756.00,13.76,true
-Multi-Threaded Merge Sort (Recursive),100000,62,16951.00,16.95,true
-Multi-Threaded Merge Sort (Recursive),100000,63,13352.00,13.35,true
-Multi-Threaded Merge Sort (Recursive),100000,64,17446.00,17.45,true
-Multi-Threaded Merge Sort (Recursive),100000,65,14909.00,14.91,true
-Multi-Threaded Merge Sort (Recursive),100000,66,15209.00,15.21,true
-Multi-Threaded Merge Sort (Recursive),100000,67,14223.00,14.22,true
-Multi-Threaded Merge Sort (Recursive),100000,68,14284.00,14.28,true
-Multi-Threaded Merge Sort (Recursive),100000,69,14027.00,14.03,true
-Multi-Threaded Merge Sort (Recursive),100000,70,14132.00,14.13,true
-Multi-Threaded Merge Sort (Recursive),100000,71,14377.00,14.38,true
-Multi-Threaded Merge Sort (Recursive),100000,72,14035.00,14.04,true
-Multi-Threaded Merge Sort (Recursive),100000,73,13837.00,13.84,true
-Multi-Threaded Merge Sort (Recursive),100000,74,14098.00,14.10,true
-Multi-Threaded Merge Sort (Recursive),100000,75,13216.00,13.22,true
-Multi-Threaded Merge Sort (Recursive),100000,76,14470.00,14.47,true
-Multi-Threaded Merge Sort (Recursive),100000,77,14193.00,14.19,true
-Multi-Threaded Merge Sort (Recursive),100000,78,15388.00,15.39,true
-Multi-Threaded Merge Sort (Recursive),100000,79,15147.00,15.15,true
-Multi-Threaded Merge Sort (Recursive),100000,80,16613.00,16.61,true
-Multi-Threaded Merge Sort (Recursive),100000,81,13457.00,13.46,true
-Multi-Threaded Merge Sort (Recursive),100000,82,13177.00,13.18,true
-Multi-Threaded Merge Sort (Recursive),100000,83,14163.00,14.16,true
-Multi-Threaded Merge Sort (Recursive),100000,84,13247.00,13.25,true
-Multi-Threaded Merge Sort (Recursive),100000,85,14722.00,14.72,true
-Multi-Threaded Merge Sort (Recursive),100000,86,14039.00,14.04,true
-Multi-Threaded Merge Sort (Recursive),100000,87,13844.00,13.84,true
-Multi-Threaded Merge Sort (Recursive),100000,88,14051.00,14.05,true
-Multi-Threaded Merge Sort (Recursive),100000,89,16302.00,16.30,true
-Multi-Threaded Merge Sort (Recursive),100000,90,14418.00,14.42,true
-Multi-Threaded Merge Sort (Recursive),100000,91,14506.00,14.51,true
-Multi-Threaded Merge Sort (Recursive),100000,92,13766.00,13.77,true
-Multi-Threaded Merge Sort (Recursive),100000,93,14009.00,14.01,true
-Multi-Threaded Merge Sort (Recursive),100000,94,14492.00,14.49,true
-Multi-Threaded Merge Sort (Recursive),100000,95,14562.00,14.56,true
-Multi-Threaded Merge Sort (Recursive),100000,96,14355.00,14.36,true
-Multi-Threaded Merge Sort (Recursive),100000,97,13535.00,13.54,true
-Multi-Threaded Merge Sort (Recursive),100000,98,13485.00,13.48,true
-Multi-Threaded Merge Sort (Recursive),100000,99,15136.00,15.14,true
-Multi-Threaded Merge Sort (Recursive),100000,100,15195.00,15.20,true
-Multi-Threaded Merge Sort (ThreadPool),100000,1,14932.00,14.93,true
-Multi-Threaded Merge Sort (ThreadPool),100000,2,13528.00,13.53,true
-Multi-Threaded Merge Sort (ThreadPool),100000,3,14708.00,14.71,true
-Multi-Threaded Merge Sort (ThreadPool),100000,4,14507.00,14.51,true
-Multi-Threaded Merge Sort (ThreadPool),100000,5,14215.00,14.21,true
-Multi-Threaded Merge Sort (ThreadPool),100000,6,13763.00,13.76,true
-Multi-Threaded Merge Sort (ThreadPool),100000,7,14133.00,14.13,true
-Multi-Threaded Merge Sort (ThreadPool),100000,8,13698.00,13.70,true
-Multi-Threaded Merge Sort (ThreadPool),100000,9,14571.00,14.57,true
-Multi-Threaded Merge Sort (ThreadPool),100000,10,13947.00,13.95,true
-Multi-Threaded Merge Sort (ThreadPool),100000,11,15360.00,15.36,true
-Multi-Threaded Merge Sort (ThreadPool),100000,12,16252.00,16.25,true
-Multi-Threaded Merge Sort (ThreadPool),100000,13,15454.00,15.45,true
-Multi-Threaded Merge Sort (ThreadPool),100000,14,16978.00,16.98,true
-Multi-Threaded Merge Sort (ThreadPool),100000,15,16215.00,16.21,true
-Multi-Threaded Merge Sort (ThreadPool),100000,16,14929.00,14.93,true
-Multi-Threaded Merge Sort (ThreadPool),100000,17,14864.00,14.86,true
-Multi-Threaded Merge Sort (ThreadPool),100000,18,15314.00,15.31,true
-Multi-Threaded Merge Sort (ThreadPool),100000,19,15365.00,15.37,true
-Multi-Threaded Merge Sort (ThreadPool),100000,20,14466.00,14.47,true
-Multi-Threaded Merge Sort (ThreadPool),100000,21,14823.00,14.82,true
-Multi-Threaded Merge Sort (ThreadPool),100000,22,15034.00,15.03,true
-Multi-Threaded Merge Sort (ThreadPool),100000,23,13860.00,13.86,true
-Multi-Threaded Merge Sort (ThreadPool),100000,24,14426.00,14.43,true
-Multi-Threaded Merge Sort (ThreadPool),100000,25,14457.00,14.46,true
-Multi-Threaded Merge Sort (ThreadPool),100000,26,14475.00,14.47,true
-Multi-Threaded Merge Sort (ThreadPool),100000,27,15065.00,15.06,true
-Multi-Threaded Merge Sort (ThreadPool),100000,28,14531.00,14.53,true
-Multi-Threaded Merge Sort (ThreadPool),100000,29,14836.00,14.84,true
-Multi-Threaded Merge Sort (ThreadPool),100000,30,14116.00,14.12,true
-Multi-Threaded Merge Sort (ThreadPool),100000,31,13417.00,13.42,true
-Multi-Threaded Merge Sort (ThreadPool),100000,32,13111.00,13.11,true
-Multi-Threaded Merge Sort (ThreadPool),100000,33,13557.00,13.56,true
-Multi-Threaded Merge Sort (ThreadPool),100000,34,13786.00,13.79,true
-Multi-Threaded Merge Sort (ThreadPool),100000,35,14042.00,14.04,true
-Multi-Threaded Merge Sort (ThreadPool),100000,36,13947.00,13.95,true
-Multi-Threaded Merge Sort (ThreadPool),100000,37,13905.00,13.90,true
-Multi-Threaded Merge Sort (ThreadPool),100000,38,14050.00,14.05,true
-Multi-Threaded Merge Sort (ThreadPool),100000,39,13994.00,13.99,true
-Multi-Threaded Merge Sort (ThreadPool),100000,40,14454.00,14.45,true
-Multi-Threaded Merge Sort (ThreadPool),100000,41,13000.00,13.00,true
-Multi-Threaded Merge Sort (ThreadPool),100000,42,13428.00,13.43,true
-Multi-Threaded Merge Sort (ThreadPool),100000,43,13487.00,13.49,true
-Multi-Threaded Merge Sort (ThreadPool),100000,44,13790.00,13.79,true
-Multi-Threaded Merge Sort (ThreadPool),100000,45,14460.00,14.46,true
-Multi-Threaded Merge Sort (ThreadPool),100000,46,14447.00,14.45,true
-Multi-Threaded Merge Sort (ThreadPool),100000,47,13984.00,13.98,true
-Multi-Threaded Merge Sort (ThreadPool),100000,48,12574.00,12.57,true
-Multi-Threaded Merge Sort (ThreadPool),100000,49,14059.00,14.06,true
-Multi-Threaded Merge Sort (ThreadPool),100000,50,13995.00,13.99,true
-Multi-Threaded Merge Sort (ThreadPool),100000,51,14689.00,14.69,true
-Multi-Threaded Merge Sort (ThreadPool),100000,52,13486.00,13.49,true
-Multi-Threaded Merge Sort (ThreadPool),100000,53,13932.00,13.93,true
-Multi-Threaded Merge Sort (ThreadPool),100000,54,13658.00,13.66,true
-Multi-Threaded Merge Sort (ThreadPool),100000,55,13483.00,13.48,true
-Multi-Threaded Merge Sort (ThreadPool),100000,56,13862.00,13.86,true
-Multi-Threaded Merge Sort (ThreadPool),100000,57,14201.00,14.20,true
-Multi-Threaded Merge Sort (ThreadPool),100000,58,15133.00,15.13,true
-Multi-Threaded Merge Sort (ThreadPool),100000,59,14109.00,14.11,true
-Multi-Threaded Merge Sort (ThreadPool),100000,60,13736.00,13.74,true
-Multi-Threaded Merge Sort (ThreadPool),100000,61,13367.00,13.37,true
-Multi-Threaded Merge Sort (ThreadPool),100000,62,14946.00,14.95,true
-Multi-Threaded Merge Sort (ThreadPool),100000,63,14862.00,14.86,true
-Multi-Threaded Merge Sort (ThreadPool),100000,64,15871.00,15.87,true
-Multi-Threaded Merge Sort (ThreadPool),100000,65,15190.00,15.19,true
-Multi-Threaded Merge Sort (ThreadPool),100000,66,14407.00,14.41,true
-Multi-Threaded Merge Sort (ThreadPool),100000,67,14753.00,14.75,true
-Multi-Threaded Merge Sort (ThreadPool),100000,68,14228.00,14.23,true
-Multi-Threaded Merge Sort (ThreadPool),100000,69,15046.00,15.05,true
-Multi-Threaded Merge Sort (ThreadPool),100000,70,14615.00,14.62,true
-Multi-Threaded Merge Sort (ThreadPool),100000,71,13406.00,13.41,true
-Multi-Threaded Merge Sort (ThreadPool),100000,72,13419.00,13.42,true
-Multi-Threaded Merge Sort (ThreadPool),100000,73,13402.00,13.40,true
-Multi-Threaded Merge Sort (ThreadPool),100000,74,14673.00,14.67,true
-Multi-Threaded Merge Sort (ThreadPool),100000,75,14410.00,14.41,true
-Multi-Threaded Merge Sort (ThreadPool),100000,76,13807.00,13.81,true
-Multi-Threaded Merge Sort (ThreadPool),100000,77,13676.00,13.68,true
-Multi-Threaded Merge Sort (ThreadPool),100000,78,13911.00,13.91,true
-Multi-Threaded Merge Sort (ThreadPool),100000,79,13049.00,13.05,true
-Multi-Threaded Merge Sort (ThreadPool),100000,80,14380.00,14.38,true
-Multi-Threaded Merge Sort (ThreadPool),100000,81,13499.00,13.50,true
-Multi-Threaded Merge Sort (ThreadPool),100000,82,15771.00,15.77,true
-Multi-Threaded Merge Sort (ThreadPool),100000,83,14693.00,14.69,true
-Multi-Threaded Merge Sort (ThreadPool),100000,84,14239.00,14.24,true
-Multi-Threaded Merge Sort (ThreadPool),100000,85,15465.00,15.46,true
-Multi-Threaded Merge Sort (ThreadPool),100000,86,14918.00,14.92,true
-Multi-Threaded Merge Sort (ThreadPool),100000,87,15765.00,15.77,true
-Multi-Threaded Merge Sort (ThreadPool),100000,88,15776.00,15.78,true
-Multi-Threaded Merge Sort (ThreadPool),100000,89,14859.00,14.86,true
-Multi-Threaded Merge Sort (ThreadPool),100000,90,14172.00,14.17,true
-Multi-Threaded Merge Sort (ThreadPool),100000,91,14499.00,14.50,true
-Multi-Threaded Merge Sort (ThreadPool),100000,92,14772.00,14.77,true
-Multi-Threaded Merge Sort (ThreadPool),100000,93,15611.00,15.61,true
-Multi-Threaded Merge Sort (ThreadPool),100000,94,15020.00,15.02,true
-Multi-Threaded Merge Sort (ThreadPool),100000,95,13796.00,13.80,true
-Multi-Threaded Merge Sort (ThreadPool),100000,96,13992.00,13.99,true
-Multi-Threaded Merge Sort (ThreadPool),100000,97,14885.00,14.88,true
-Multi-Threaded Merge Sort (ThreadPool),100000,98,14020.00,14.02,true
-Multi-Threaded Merge Sort (ThreadPool),100000,99,13402.00,13.40,true
-Multi-Threaded Merge Sort (ThreadPool),100000,100,13450.00,13.45,true
-Quick Sort,100000,1,22714.00,22.71,true
-Quick Sort,100000,2,19885.00,19.89,true
-Quick Sort,100000,3,19345.00,19.34,true
-Quick Sort,100000,4,20104.00,20.10,true
-Quick Sort,100000,5,22705.00,22.70,true
-Quick Sort,100000,6,20942.00,20.94,true
-Quick Sort,100000,7,21025.00,21.02,true
-Quick Sort,100000,8,21245.00,21.25,true
-Quick Sort,100000,9,19952.00,19.95,true
-Quick Sort,100000,10,19417.00,19.42,true
-Quick Sort,100000,11,22422.00,22.42,true
-Quick Sort,100000,12,21317.00,21.32,true
-Quick Sort,100000,13,25408.00,25.41,true
-Quick Sort,100000,14,22431.00,22.43,true
-Quick Sort,100000,15,20075.00,20.07,true
-Quick Sort,100000,16,24770.00,24.77,true
-Quick Sort,100000,17,21357.00,21.36,true
-Quick Sort,100000,18,19875.00,19.88,true
-Quick Sort,100000,19,18455.00,18.45,true
-Quick Sort,100000,20,19722.00,19.72,true
-Quick Sort,100000,21,20621.00,20.62,true
-Quick Sort,100000,22,20936.00,20.94,true
-Quick Sort,100000,23,20013.00,20.01,true
-Quick Sort,100000,24,20322.00,20.32,true
-Quick Sort,100000,25,20970.00,20.97,true
-Quick Sort,100000,26,19648.00,19.65,true
-Quick Sort,100000,27,19976.00,19.98,true
-Quick Sort,100000,28,21930.00,21.93,true
-Quick Sort,100000,29,22064.00,22.06,true
-Quick Sort,100000,30,20622.00,20.62,true
-Quick Sort,100000,31,21282.00,21.28,true
-Quick Sort,100000,32,19710.00,19.71,true
-Quick Sort,100000,33,20900.00,20.90,true
-Quick Sort,100000,34,19221.00,19.22,true
-Quick Sort,100000,35,20602.00,20.60,true
-Quick Sort,100000,36,20923.00,20.92,true
-Quick Sort,100000,37,20912.00,20.91,true
-Quick Sort,100000,38,22166.00,22.17,true
-Quick Sort,100000,39,21475.00,21.48,true
-Quick Sort,100000,40,21327.00,21.33,true
-Quick Sort,100000,41,20891.00,20.89,true
-Quick Sort,100000,42,23764.00,23.76,true
-Quick Sort,100000,43,20142.00,20.14,true
-Quick Sort,100000,44,20011.00,20.01,true
-Quick Sort,100000,45,19944.00,19.94,true
-Quick Sort,100000,46,22473.00,22.47,true
-Quick Sort,100000,47,21730.00,21.73,true
-Quick Sort,100000,48,20670.00,20.67,true
-Quick Sort,100000,49,24683.00,24.68,true
-Quick Sort,100000,50,25840.00,25.84,true
-Quick Sort,100000,51,22244.00,22.24,true
-Quick Sort,100000,52,23521.00,23.52,true
-Quick Sort,100000,53,20839.00,20.84,true
-Quick Sort,100000,54,21821.00,21.82,true
-Quick Sort,100000,55,20504.00,20.50,true
-Quick Sort,100000,56,22831.00,22.83,true
-Quick Sort,100000,57,22426.00,22.43,true
-Quick Sort,100000,58,20041.00,20.04,true
-Quick Sort,100000,59,20189.00,20.19,true
-Quick Sort,100000,60,22232.00,22.23,true
-Quick Sort,100000,61,20096.00,20.10,true
-Quick Sort,100000,62,19970.00,19.97,true
-Quick Sort,100000,63,19039.00,19.04,true
-Quick Sort,100000,64,19887.00,19.89,true
-Quick Sort,100000,65,19546.00,19.55,true
-Quick Sort,100000,66,20706.00,20.71,true
-Quick Sort,100000,67,23005.00,23.00,true
-Quick Sort,100000,68,21801.00,21.80,true
-Quick Sort,100000,69,21094.00,21.09,true
-Quick Sort,100000,70,20958.00,20.96,true
-Quick Sort,100000,71,21037.00,21.04,true
-Quick Sort,100000,72,20368.00,20.37,true
-Quick Sort,100000,73,20018.00,20.02,true
-Quick Sort,100000,74,21157.00,21.16,true
-Quick Sort,100000,75,20827.00,20.83,true
-Quick Sort,100000,76,20199.00,20.20,true
-Quick Sort,100000,77,19997.00,20.00,true
-Quick Sort,100000,78,19016.00,19.02,true
-Quick Sort,100000,79,19309.00,19.31,true
-Quick Sort,100000,80,20489.00,20.49,true
-Quick Sort,100000,81,20353.00,20.35,true
-Quick Sort,100000,82,20567.00,20.57,true
-Quick Sort,100000,83,19867.00,19.87,true
-Quick Sort,100000,84,21588.00,21.59,true
-Quick Sort,100000,85,26566.00,26.57,true
-Quick Sort,100000,86,23731.00,23.73,true
-Quick Sort,100000,87,23677.00,23.68,true
-Quick Sort,100000,88,20688.00,20.69,true
-Quick Sort,100000,89,21189.00,21.19,true
-Quick Sort,100000,90,19987.00,19.99,true
-Quick Sort,100000,91,18801.00,18.80,true
-Quick Sort,100000,92,20590.00,20.59,true
-Quick Sort,100000,93,21466.00,21.47,true
-Quick Sort,100000,94,20221.00,20.22,true
-Quick Sort,100000,95,20442.00,20.44,true
-Quick Sort,100000,96,24850.00,24.85,true
-Quick Sort,100000,97,21633.00,21.63,true
-Quick Sort,100000,98,20405.00,20.41,true
-Quick Sort,100000,99,21075.00,21.07,true
-Quick Sort,100000,100,20892.00,20.89,true
-Heap Sort,100000,1,44993.00,44.99,true
-Heap Sort,100000,2,47612.00,47.61,true
-Heap Sort,100000,3,41711.00,41.71,true
-Heap Sort,100000,4,44311.00,44.31,true
-Heap Sort,100000,5,42939.00,42.94,true
-Heap Sort,100000,6,43323.00,43.32,true
-Heap Sort,100000,7,44583.00,44.58,true
-Heap Sort,100000,8,38439.00,38.44,true
-Heap Sort,100000,9,49207.00,49.21,true
-Heap Sort,100000,10,42046.00,42.05,true
-Heap Sort,100000,11,45788.00,45.79,true
-Heap Sort,100000,12,44482.00,44.48,true
-Heap Sort,100000,13,47350.00,47.35,true
-Heap Sort,100000,14,42629.00,42.63,true
-Heap Sort,100000,15,44358.00,44.36,true
-Heap Sort,100000,16,46779.00,46.78,true
-Heap Sort,100000,17,46252.00,46.25,true
-Heap Sort,100000,18,46239.00,46.24,true
-Heap Sort,100000,19,43385.00,43.38,true
-Heap Sort,100000,20,46800.00,46.80,true
-Heap Sort,100000,21,43506.00,43.51,true
-Heap Sort,100000,22,43792.00,43.79,true
-Heap Sort,100000,23,49055.00,49.05,true
-Heap Sort,100000,24,39881.00,39.88,true
-Heap Sort,100000,25,41893.00,41.89,true
-Heap Sort,100000,26,46156.00,46.16,true
-Heap Sort,100000,27,45665.00,45.66,true
-Heap Sort,100000,28,44850.00,44.85,true
-Heap Sort,100000,29,42460.00,42.46,true
-Heap Sort,100000,30,42237.00,42.24,true
-Heap Sort,100000,31,48838.00,48.84,true
-Heap Sort,100000,32,44785.00,44.78,true
-Heap Sort,100000,33,49134.00,49.13,true
-Heap Sort,100000,34,42231.00,42.23,true
-Heap Sort,100000,35,46025.00,46.02,true
-Heap Sort,100000,36,47899.00,47.90,true
-Heap Sort,100000,37,42684.00,42.68,true
-Heap Sort,100000,38,45241.00,45.24,true
-Heap Sort,100000,39,44112.00,44.11,true
-Heap Sort,100000,40,48000.00,48.00,true
-Heap Sort,100000,41,45664.00,45.66,true
-Heap Sort,100000,42,46700.00,46.70,true
-Heap Sort,100000,43,44500.00,44.50,true
-Heap Sort,100000,44,43259.00,43.26,true
-Heap Sort,100000,45,45175.00,45.17,true
-Heap Sort,100000,46,46911.00,46.91,true
-Heap Sort,100000,47,44455.00,44.45,true
-Heap Sort,100000,48,43846.00,43.85,true
-Heap Sort,100000,49,42596.00,42.60,true
-Heap Sort,100000,50,41477.00,41.48,true
-Heap Sort,100000,51,46710.00,46.71,true
-Heap Sort,100000,52,42899.00,42.90,true
-Heap Sort,100000,53,45108.00,45.11,true
-Heap Sort,100000,54,47313.00,47.31,true
-Heap Sort,100000,55,42222.00,42.22,true
-Heap Sort,100000,56,41810.00,41.81,true
-Heap Sort,100000,57,43219.00,43.22,true
-Heap Sort,100000,58,42668.00,42.67,true
-Heap Sort,100000,59,44424.00,44.42,true
-Heap Sort,100000,60,48713.00,48.71,true
-Heap Sort,100000,61,50547.00,50.55,true
-Heap Sort,100000,62,43432.00,43.43,true
-Heap Sort,100000,63,41672.00,41.67,true
-Heap Sort,100000,64,48540.00,48.54,true
-Heap Sort,100000,65,46131.00,46.13,true
-Heap Sort,100000,66,46871.00,46.87,true
-Heap Sort,100000,67,49930.00,49.93,true
-Heap Sort,100000,68,50576.00,50.58,true
-Heap Sort,100000,69,45106.00,45.11,true
-Heap Sort,100000,70,43047.00,43.05,true
-Heap Sort,100000,71,43711.00,43.71,true
-Heap Sort,100000,72,45450.00,45.45,true
-Heap Sort,100000,73,42749.00,42.75,true
-Heap Sort,100000,74,44902.00,44.90,true
-Heap Sort,100000,75,42910.00,42.91,true
-Heap Sort,100000,76,39265.00,39.27,true
-Heap Sort,100000,77,48887.00,48.89,true
-Heap Sort,100000,78,49598.00,49.60,true
-Heap Sort,100000,79,41071.00,41.07,true
-Heap Sort,100000,80,42722.00,42.72,true
-Heap Sort,100000,81,48163.00,48.16,true
-Heap Sort,100000,82,41058.00,41.06,true
-Heap Sort,100000,83,46800.00,46.80,true
-Heap Sort,100000,84,43890.00,43.89,true
-Heap Sort,100000,85,43440.00,43.44,true
-Heap Sort,100000,86,44534.00,44.53,true
-Heap Sort,100000,87,42569.00,42.57,true
-Heap Sort,100000,88,47459.00,47.46,true
-Heap Sort,100000,89,44138.00,44.14,true
-Heap Sort,100000,90,48800.00,48.80,true
-Heap Sort,100000,91,46704.00,46.70,true
-Heap Sort,100000,92,50622.00,50.62,true
-Heap Sort,100000,93,46798.00,46.80,true
-Heap Sort,100000,94,42836.00,42.84,true
-Heap Sort,100000,95,42231.00,42.23,true
-Heap Sort,100000,96,46326.00,46.33,true
-Heap Sort,100000,97,41180.00,41.18,true
-Heap Sort,100000,98,51235.00,51.23,true
-Heap Sort,100000,99,47403.00,47.40,true
-Heap Sort,100000,100,42181.00,42.18,true
-STL Sort (std::sort),100000,1,33654.00,33.65,true
-STL Sort (std::sort),100000,2,30644.00,30.64,true
-STL Sort (std::sort),100000,3,32871.00,32.87,true
-STL Sort (std::sort),100000,4,29966.00,29.97,true
-STL Sort (std::sort),100000,5,31761.00,31.76,true
-STL Sort (std::sort),100000,6,30930.00,30.93,true
-STL Sort (std::sort),100000,7,31440.00,31.44,true
-STL Sort (std::sort),100000,8,34013.00,34.01,true
-STL Sort (std::sort),100000,9,32316.00,32.32,true
-STL Sort (std::sort),100000,10,31266.00,31.27,true
-STL Sort (std::sort),100000,11,30012.00,30.01,true
-STL Sort (std::sort),100000,12,32031.00,32.03,true
-STL Sort (std::sort),100000,13,32218.00,32.22,true
-STL Sort (std::sort),100000,14,32583.00,32.58,true
-STL Sort (std::sort),100000,15,31393.00,31.39,true
-STL Sort (std::sort),100000,16,33486.00,33.49,true
-STL Sort (std::sort),100000,17,31993.00,31.99,true
-STL Sort (std::sort),100000,18,33446.00,33.45,true
-STL Sort (std::sort),100000,19,35407.00,35.41,true
-STL Sort (std::sort),100000,20,34648.00,34.65,true
-STL Sort (std::sort),100000,21,32041.00,32.04,true
-STL Sort (std::sort),100000,22,33123.00,33.12,true
-STL Sort (std::sort),100000,23,32303.00,32.30,true
-STL Sort (std::sort),100000,24,32436.00,32.44,true
-STL Sort (std::sort),100000,25,31746.00,31.75,true
-STL Sort (std::sort),100000,26,32690.00,32.69,true
-STL Sort (std::sort),100000,27,32301.00,32.30,true
-STL Sort (std::sort),100000,28,32252.00,32.25,true
-STL Sort (std::sort),100000,29,35247.00,35.25,true
-STL Sort (std::sort),100000,30,33500.00,33.50,true
-STL Sort (std::sort),100000,31,32729.00,32.73,true
-STL Sort (std::sort),100000,32,33521.00,33.52,true
-STL Sort (std::sort),100000,33,35109.00,35.11,true
-STL Sort (std::sort),100000,34,32545.00,32.55,true
-STL Sort (std::sort),100000,35,34007.00,34.01,true
-STL Sort (std::sort),100000,36,31967.00,31.97,true
-STL Sort (std::sort),100000,37,33400.00,33.40,true
-STL Sort (std::sort),100000,38,31188.00,31.19,true
-STL Sort (std::sort),100000,39,32180.00,32.18,true
-STL Sort (std::sort),100000,40,32855.00,32.85,true
-STL Sort (std::sort),100000,41,34227.00,34.23,true
-STL Sort (std::sort),100000,42,31235.00,31.23,true
-STL Sort (std::sort),100000,43,33882.00,33.88,true
-STL Sort (std::sort),100000,44,31566.00,31.57,true
-STL Sort (std::sort),100000,45,29752.00,29.75,true
-STL Sort (std::sort),100000,46,33869.00,33.87,true
-STL Sort (std::sort),100000,47,33862.00,33.86,true
-STL Sort (std::sort),100000,48,33067.00,33.07,true
-STL Sort (std::sort),100000,49,33987.00,33.99,true
-STL Sort (std::sort),100000,50,34960.00,34.96,true
-STL Sort (std::sort),100000,51,34449.00,34.45,true
-STL Sort (std::sort),100000,52,33050.00,33.05,true
-STL Sort (std::sort),100000,53,35508.00,35.51,true
-STL Sort (std::sort),100000,54,32045.00,32.05,true
-STL Sort (std::sort),100000,55,35086.00,35.09,true
-STL Sort (std::sort),100000,56,33798.00,33.80,true
-STL Sort (std::sort),100000,57,35219.00,35.22,true
-STL Sort (std::sort),100000,58,31092.00,31.09,true
-STL Sort (std::sort),100000,59,34760.00,34.76,true
-STL Sort (std::sort),100000,60,33900.00,33.90,true
-STL Sort (std::sort),100000,61,33859.00,33.86,true
-STL Sort (std::sort),100000,62,30452.00,30.45,true
-STL Sort (std::sort),100000,63,33033.00,33.03,true
-STL Sort (std::sort),100000,64,36639.00,36.64,true
-STL Sort (std::sort),100000,65,32362.00,32.36,true
-STL Sort (std::sort),100000,66,34643.00,34.64,true
-STL Sort (std::sort),100000,67,31337.00,31.34,true
-STL Sort (std::sort),100000,68,32335.00,32.34,true
-STL Sort (std::sort),100000,69,36405.00,36.41,true
-STL Sort (std::sort),100000,70,32553.00,32.55,true
-STL Sort (std::sort),100000,71,31909.00,31.91,true
-STL Sort (std::sort),100000,72,29343.00,29.34,true
-STL Sort (std::sort),100000,73,34830.00,34.83,true
-STL Sort (std::sort),100000,74,35787.00,35.79,true
-STL Sort (std::sort),100000,75,33403.00,33.40,true
-STL Sort (std::sort),100000,76,31031.00,31.03,true
-STL Sort (std::sort),100000,77,31820.00,31.82,true
-STL Sort (std::sort),100000,78,31243.00,31.24,true
-STL Sort (std::sort),100000,79,32757.00,32.76,true
-STL Sort (std::sort),100000,80,28873.00,28.87,true
-STL Sort (std::sort),100000,81,32719.00,32.72,true
-STL Sort (std::sort),100000,82,36922.00,36.92,true
-STL Sort (std::sort),100000,83,34143.00,34.14,true
-STL Sort (std::sort),100000,84,33513.00,33.51,true
-STL Sort (std::sort),100000,85,35114.00,35.11,true
-STL Sort (std::sort),100000,86,31505.00,31.50,true
-STL Sort (std::sort),100000,87,32055.00,32.05,true
-STL Sort (std::sort),100000,88,32172.00,32.17,true
-STL Sort (std::sort),100000,89,34963.00,34.96,true
-STL Sort (std::sort),100000,90,32921.00,32.92,true
-STL Sort (std::sort),100000,91,30633.00,30.63,true
-STL Sort (std::sort),100000,92,33186.00,33.19,true
-STL Sort (std::sort),100000,93,32179.00,32.18,true
-STL Sort (std::sort),100000,94,33196.00,33.20,true
-STL Sort (std::sort),100000,95,32698.00,32.70,true
-STL Sort (std::sort),100000,96,33082.00,33.08,true
-STL Sort (std::sort),100000,97,30995.00,31.00,true
-STL Sort (std::sort),100000,98,33696.00,33.70,true
-STL Sort (std::sort),100000,99,34000.00,34.00,true
-STL Sort (std::sort),100000,100,34857.00,34.86,true
+Single-Threaded Merge Sort,100000,1,97192.00,97.19,true
+Single-Threaded Merge Sort,100000,2,97174.00,97.17,true
+Single-Threaded Merge Sort,100000,3,78176.00,78.18,true
+Single-Threaded Merge Sort,100000,4,72779.00,72.78,true
+Single-Threaded Merge Sort,100000,5,81335.00,81.33,true
+Single-Threaded Merge Sort,100000,6,71581.00,71.58,true
+Single-Threaded Merge Sort,100000,7,76071.00,76.07,true
+Single-Threaded Merge Sort,100000,8,95006.00,95.01,true
+Single-Threaded Merge Sort,100000,9,84663.00,84.66,true
+Single-Threaded Merge Sort,100000,10,83147.00,83.15,true
+Single-Threaded Merge Sort,100000,11,107134.00,107.13,true
+Single-Threaded Merge Sort,100000,12,93189.00,93.19,true
+Single-Threaded Merge Sort,100000,13,84067.00,84.07,true
+Single-Threaded Merge Sort,100000,14,67610.00,67.61,true
+Single-Threaded Merge Sort,100000,15,58761.00,58.76,true
+Single-Threaded Merge Sort,100000,16,57862.00,57.86,true
+Single-Threaded Merge Sort,100000,17,58784.00,58.78,true
+Single-Threaded Merge Sort,100000,18,58200.00,58.20,true
+Single-Threaded Merge Sort,100000,19,61272.00,61.27,true
+Single-Threaded Merge Sort,100000,20,67282.00,67.28,true
+Single-Threaded Merge Sort,100000,21,62924.00,62.92,true
+Single-Threaded Merge Sort,100000,22,69113.00,69.11,true
+Single-Threaded Merge Sort,100000,23,66584.00,66.58,true
+Single-Threaded Merge Sort,100000,24,63198.00,63.20,true
+Single-Threaded Merge Sort,100000,25,66524.00,66.52,true
+Single-Threaded Merge Sort,100000,26,60193.00,60.19,true
+Single-Threaded Merge Sort,100000,27,59567.00,59.57,true
+Single-Threaded Merge Sort,100000,28,64423.00,64.42,true
+Single-Threaded Merge Sort,100000,29,65119.00,65.12,true
+Single-Threaded Merge Sort,100000,30,62838.00,62.84,true
+Single-Threaded Merge Sort,100000,31,58481.00,58.48,true
+Single-Threaded Merge Sort,100000,32,70538.00,70.54,true
+Single-Threaded Merge Sort,100000,33,64026.00,64.03,true
+Single-Threaded Merge Sort,100000,34,65302.00,65.30,true
+Single-Threaded Merge Sort,100000,35,64091.00,64.09,true
+Single-Threaded Merge Sort,100000,36,63367.00,63.37,true
+Single-Threaded Merge Sort,100000,37,64435.00,64.44,true
+Single-Threaded Merge Sort,100000,38,65326.00,65.33,true
+Single-Threaded Merge Sort,100000,39,58210.00,58.21,true
+Single-Threaded Merge Sort,100000,40,63116.00,63.12,true
+Single-Threaded Merge Sort,100000,41,59296.00,59.30,true
+Single-Threaded Merge Sort,100000,42,66164.00,66.16,true
+Single-Threaded Merge Sort,100000,43,66984.00,66.98,true
+Single-Threaded Merge Sort,100000,44,63209.00,63.21,true
+Single-Threaded Merge Sort,100000,45,66602.00,66.60,true
+Single-Threaded Merge Sort,100000,46,68681.00,68.68,true
+Single-Threaded Merge Sort,100000,47,61410.00,61.41,true
+Single-Threaded Merge Sort,100000,48,67781.00,67.78,true
+Single-Threaded Merge Sort,100000,49,63133.00,63.13,true
+Single-Threaded Merge Sort,100000,50,62903.00,62.90,true
+Single-Threaded Merge Sort,100000,51,60472.00,60.47,true
+Single-Threaded Merge Sort,100000,52,64424.00,64.42,true
+Single-Threaded Merge Sort,100000,53,60759.00,60.76,true
+Single-Threaded Merge Sort,100000,54,58203.00,58.20,true
+Single-Threaded Merge Sort,100000,55,58149.00,58.15,true
+Single-Threaded Merge Sort,100000,56,57915.00,57.91,true
+Single-Threaded Merge Sort,100000,57,55324.00,55.32,true
+Single-Threaded Merge Sort,100000,58,59078.00,59.08,true
+Single-Threaded Merge Sort,100000,59,52174.00,52.17,true
+Single-Threaded Merge Sort,100000,60,52933.00,52.93,true
+Single-Threaded Merge Sort,100000,61,56276.00,56.28,true
+Single-Threaded Merge Sort,100000,62,53876.00,53.88,true
+Single-Threaded Merge Sort,100000,63,49546.00,49.55,true
+Single-Threaded Merge Sort,100000,64,50395.00,50.40,true
+Single-Threaded Merge Sort,100000,65,55600.00,55.60,true
+Single-Threaded Merge Sort,100000,66,54443.00,54.44,true
+Single-Threaded Merge Sort,100000,67,53946.00,53.95,true
+Single-Threaded Merge Sort,100000,68,50562.00,50.56,true
+Single-Threaded Merge Sort,100000,69,51712.00,51.71,true
+Single-Threaded Merge Sort,100000,70,52622.00,52.62,true
+Single-Threaded Merge Sort,100000,71,52300.00,52.30,true
+Single-Threaded Merge Sort,100000,72,54918.00,54.92,true
+Single-Threaded Merge Sort,100000,73,56808.00,56.81,true
+Single-Threaded Merge Sort,100000,74,53247.00,53.25,true
+Single-Threaded Merge Sort,100000,75,50977.00,50.98,true
+Single-Threaded Merge Sort,100000,76,47917.00,47.92,true
+Single-Threaded Merge Sort,100000,77,61215.00,61.22,true
+Single-Threaded Merge Sort,100000,78,52759.00,52.76,true
+Single-Threaded Merge Sort,100000,79,50822.00,50.82,true
+Single-Threaded Merge Sort,100000,80,49693.00,49.69,true
+Single-Threaded Merge Sort,100000,81,50796.00,50.80,true
+Single-Threaded Merge Sort,100000,82,50939.00,50.94,true
+Single-Threaded Merge Sort,100000,83,53648.00,53.65,true
+Single-Threaded Merge Sort,100000,84,49245.00,49.24,true
+Single-Threaded Merge Sort,100000,85,59242.00,59.24,true
+Single-Threaded Merge Sort,100000,86,49779.00,49.78,true
+Single-Threaded Merge Sort,100000,87,53995.00,53.99,true
+Single-Threaded Merge Sort,100000,88,48917.00,48.92,true
+Single-Threaded Merge Sort,100000,89,53043.00,53.04,true
+Single-Threaded Merge Sort,100000,90,52768.00,52.77,true
+Single-Threaded Merge Sort,100000,91,54011.00,54.01,true
+Single-Threaded Merge Sort,100000,92,56537.00,56.54,true
+Single-Threaded Merge Sort,100000,93,53631.00,53.63,true
+Single-Threaded Merge Sort,100000,94,52021.00,52.02,true
+Single-Threaded Merge Sort,100000,95,47608.00,47.61,true
+Single-Threaded Merge Sort,100000,96,50514.00,50.51,true
+Single-Threaded Merge Sort,100000,97,50987.00,50.99,true
+Single-Threaded Merge Sort,100000,98,59296.00,59.30,true
+Single-Threaded Merge Sort,100000,99,56799.00,56.80,true
+Single-Threaded Merge Sort,100000,100,59278.00,59.28,true
+Multi-Threaded Merge Sort (Recursive),100000,1,14068.00,14.07,true
+Multi-Threaded Merge Sort (Recursive),100000,2,16584.00,16.58,true
+Multi-Threaded Merge Sort (Recursive),100000,3,15292.00,15.29,true
+Multi-Threaded Merge Sort (Recursive),100000,4,15601.00,15.60,true
+Multi-Threaded Merge Sort (Recursive),100000,5,14952.00,14.95,true
+Multi-Threaded Merge Sort (Recursive),100000,6,14370.00,14.37,true
+Multi-Threaded Merge Sort (Recursive),100000,7,13885.00,13.88,true
+Multi-Threaded Merge Sort (Recursive),100000,8,13439.00,13.44,true
+Multi-Threaded Merge Sort (Recursive),100000,9,13987.00,13.99,true
+Multi-Threaded Merge Sort (Recursive),100000,10,16381.00,16.38,true
+Multi-Threaded Merge Sort (Recursive),100000,11,14176.00,14.18,true
+Multi-Threaded Merge Sort (Recursive),100000,12,14542.00,14.54,true
+Multi-Threaded Merge Sort (Recursive),100000,13,15541.00,15.54,true
+Multi-Threaded Merge Sort (Recursive),100000,14,15988.00,15.99,true
+Multi-Threaded Merge Sort (Recursive),100000,15,15475.00,15.47,true
+Multi-Threaded Merge Sort (Recursive),100000,16,15437.00,15.44,true
+Multi-Threaded Merge Sort (Recursive),100000,17,15056.00,15.06,true
+Multi-Threaded Merge Sort (Recursive),100000,18,15684.00,15.68,true
+Multi-Threaded Merge Sort (Recursive),100000,19,16341.00,16.34,true
+Multi-Threaded Merge Sort (Recursive),100000,20,15746.00,15.75,true
+Multi-Threaded Merge Sort (Recursive),100000,21,15397.00,15.40,true
+Multi-Threaded Merge Sort (Recursive),100000,22,16739.00,16.74,true
+Multi-Threaded Merge Sort (Recursive),100000,23,16001.00,16.00,true
+Multi-Threaded Merge Sort (Recursive),100000,24,19660.00,19.66,true
+Multi-Threaded Merge Sort (Recursive),100000,25,15239.00,15.24,true
+Multi-Threaded Merge Sort (Recursive),100000,26,14531.00,14.53,true
+Multi-Threaded Merge Sort (Recursive),100000,27,16732.00,16.73,true
+Multi-Threaded Merge Sort (Recursive),100000,28,17151.00,17.15,true
+Multi-Threaded Merge Sort (Recursive),100000,29,15696.00,15.70,true
+Multi-Threaded Merge Sort (Recursive),100000,30,14154.00,14.15,true
+Multi-Threaded Merge Sort (Recursive),100000,31,15120.00,15.12,true
+Multi-Threaded Merge Sort (Recursive),100000,32,15912.00,15.91,true
+Multi-Threaded Merge Sort (Recursive),100000,33,14328.00,14.33,true
+Multi-Threaded Merge Sort (Recursive),100000,34,17235.00,17.23,true
+Multi-Threaded Merge Sort (Recursive),100000,35,17349.00,17.35,true
+Multi-Threaded Merge Sort (Recursive),100000,36,18806.00,18.81,true
+Multi-Threaded Merge Sort (Recursive),100000,37,15677.00,15.68,true
+Multi-Threaded Merge Sort (Recursive),100000,38,19307.00,19.31,true
+Multi-Threaded Merge Sort (Recursive),100000,39,16066.00,16.07,true
+Multi-Threaded Merge Sort (Recursive),100000,40,17517.00,17.52,true
+Multi-Threaded Merge Sort (Recursive),100000,41,17509.00,17.51,true
+Multi-Threaded Merge Sort (Recursive),100000,42,16594.00,16.59,true
+Multi-Threaded Merge Sort (Recursive),100000,43,14492.00,14.49,true
+Multi-Threaded Merge Sort (Recursive),100000,44,16448.00,16.45,true
+Multi-Threaded Merge Sort (Recursive),100000,45,17472.00,17.47,true
+Multi-Threaded Merge Sort (Recursive),100000,46,14939.00,14.94,true
+Multi-Threaded Merge Sort (Recursive),100000,47,14530.00,14.53,true
+Multi-Threaded Merge Sort (Recursive),100000,48,16857.00,16.86,true
+Multi-Threaded Merge Sort (Recursive),100000,49,14636.00,14.64,true
+Multi-Threaded Merge Sort (Recursive),100000,50,14044.00,14.04,true
+Multi-Threaded Merge Sort (Recursive),100000,51,15038.00,15.04,true
+Multi-Threaded Merge Sort (Recursive),100000,52,14538.00,14.54,true
+Multi-Threaded Merge Sort (Recursive),100000,53,15030.00,15.03,true
+Multi-Threaded Merge Sort (Recursive),100000,54,15708.00,15.71,true
+Multi-Threaded Merge Sort (Recursive),100000,55,14019.00,14.02,true
+Multi-Threaded Merge Sort (Recursive),100000,56,16403.00,16.40,true
+Multi-Threaded Merge Sort (Recursive),100000,57,14917.00,14.92,true
+Multi-Threaded Merge Sort (Recursive),100000,58,14302.00,14.30,true
+Multi-Threaded Merge Sort (Recursive),100000,59,14893.00,14.89,true
+Multi-Threaded Merge Sort (Recursive),100000,60,17413.00,17.41,true
+Multi-Threaded Merge Sort (Recursive),100000,61,14196.00,14.20,true
+Multi-Threaded Merge Sort (Recursive),100000,62,14286.00,14.29,true
+Multi-Threaded Merge Sort (Recursive),100000,63,15446.00,15.45,true
+Multi-Threaded Merge Sort (Recursive),100000,64,13627.00,13.63,true
+Multi-Threaded Merge Sort (Recursive),100000,65,16804.00,16.80,true
+Multi-Threaded Merge Sort (Recursive),100000,66,14622.00,14.62,true
+Multi-Threaded Merge Sort (Recursive),100000,67,14769.00,14.77,true
+Multi-Threaded Merge Sort (Recursive),100000,68,16613.00,16.61,true
+Multi-Threaded Merge Sort (Recursive),100000,69,15993.00,15.99,true
+Multi-Threaded Merge Sort (Recursive),100000,70,15333.00,15.33,true
+Multi-Threaded Merge Sort (Recursive),100000,71,15264.00,15.26,true
+Multi-Threaded Merge Sort (Recursive),100000,72,15059.00,15.06,true
+Multi-Threaded Merge Sort (Recursive),100000,73,15206.00,15.21,true
+Multi-Threaded Merge Sort (Recursive),100000,74,14693.00,14.69,true
+Multi-Threaded Merge Sort (Recursive),100000,75,14899.00,14.90,true
+Multi-Threaded Merge Sort (Recursive),100000,76,15582.00,15.58,true
+Multi-Threaded Merge Sort (Recursive),100000,77,13956.00,13.96,true
+Multi-Threaded Merge Sort (Recursive),100000,78,13481.00,13.48,true
+Multi-Threaded Merge Sort (Recursive),100000,79,14435.00,14.44,true
+Multi-Threaded Merge Sort (Recursive),100000,80,15163.00,15.16,true
+Multi-Threaded Merge Sort (Recursive),100000,81,15596.00,15.60,true
+Multi-Threaded Merge Sort (Recursive),100000,82,16108.00,16.11,true
+Multi-Threaded Merge Sort (Recursive),100000,83,15532.00,15.53,true
+Multi-Threaded Merge Sort (Recursive),100000,84,15000.00,15.00,true
+Multi-Threaded Merge Sort (Recursive),100000,85,15592.00,15.59,true
+Multi-Threaded Merge Sort (Recursive),100000,86,16687.00,16.69,true
+Multi-Threaded Merge Sort (Recursive),100000,87,14972.00,14.97,true
+Multi-Threaded Merge Sort (Recursive),100000,88,16149.00,16.15,true
+Multi-Threaded Merge Sort (Recursive),100000,89,15627.00,15.63,true
+Multi-Threaded Merge Sort (Recursive),100000,90,15209.00,15.21,true
+Multi-Threaded Merge Sort (Recursive),100000,91,15077.00,15.08,true
+Multi-Threaded Merge Sort (Recursive),100000,92,15743.00,15.74,true
+Multi-Threaded Merge Sort (Recursive),100000,93,14985.00,14.98,true
+Multi-Threaded Merge Sort (Recursive),100000,94,16813.00,16.81,true
+Multi-Threaded Merge Sort (Recursive),100000,95,19323.00,19.32,true
+Multi-Threaded Merge Sort (Recursive),100000,96,17266.00,17.27,true
+Multi-Threaded Merge Sort (Recursive),100000,97,16822.00,16.82,true
+Multi-Threaded Merge Sort (Recursive),100000,98,15703.00,15.70,true
+Multi-Threaded Merge Sort (Recursive),100000,99,15996.00,16.00,true
+Multi-Threaded Merge Sort (Recursive),100000,100,16367.00,16.37,true
+Multi-Threaded Merge Sort (ThreadPool),100000,1,14808.00,14.81,true
+Multi-Threaded Merge Sort (ThreadPool),100000,2,14695.00,14.70,true
+Multi-Threaded Merge Sort (ThreadPool),100000,3,15283.00,15.28,true
+Multi-Threaded Merge Sort (ThreadPool),100000,4,14208.00,14.21,true
+Multi-Threaded Merge Sort (ThreadPool),100000,5,13519.00,13.52,true
+Multi-Threaded Merge Sort (ThreadPool),100000,6,13973.00,13.97,true
+Multi-Threaded Merge Sort (ThreadPool),100000,7,13983.00,13.98,true
+Multi-Threaded Merge Sort (ThreadPool),100000,8,14505.00,14.51,true
+Multi-Threaded Merge Sort (ThreadPool),100000,9,14079.00,14.08,true
+Multi-Threaded Merge Sort (ThreadPool),100000,10,14153.00,14.15,true
+Multi-Threaded Merge Sort (ThreadPool),100000,11,14789.00,14.79,true
+Multi-Threaded Merge Sort (ThreadPool),100000,12,13829.00,13.83,true
+Multi-Threaded Merge Sort (ThreadPool),100000,13,13978.00,13.98,true
+Multi-Threaded Merge Sort (ThreadPool),100000,14,13845.00,13.85,true
+Multi-Threaded Merge Sort (ThreadPool),100000,15,13741.00,13.74,true
+Multi-Threaded Merge Sort (ThreadPool),100000,16,14703.00,14.70,true
+Multi-Threaded Merge Sort (ThreadPool),100000,17,15052.00,15.05,true
+Multi-Threaded Merge Sort (ThreadPool),100000,18,13620.00,13.62,true
+Multi-Threaded Merge Sort (ThreadPool),100000,19,13389.00,13.39,true
+Multi-Threaded Merge Sort (ThreadPool),100000,20,13781.00,13.78,true
+Multi-Threaded Merge Sort (ThreadPool),100000,21,14341.00,14.34,true
+Multi-Threaded Merge Sort (ThreadPool),100000,22,13863.00,13.86,true
+Multi-Threaded Merge Sort (ThreadPool),100000,23,14540.00,14.54,true
+Multi-Threaded Merge Sort (ThreadPool),100000,24,13781.00,13.78,true
+Multi-Threaded Merge Sort (ThreadPool),100000,25,14085.00,14.09,true
+Multi-Threaded Merge Sort (ThreadPool),100000,26,14613.00,14.61,true
+Multi-Threaded Merge Sort (ThreadPool),100000,27,15185.00,15.19,true
+Multi-Threaded Merge Sort (ThreadPool),100000,28,14867.00,14.87,true
+Multi-Threaded Merge Sort (ThreadPool),100000,29,14116.00,14.12,true
+Multi-Threaded Merge Sort (ThreadPool),100000,30,15318.00,15.32,true
+Multi-Threaded Merge Sort (ThreadPool),100000,31,15117.00,15.12,true
+Multi-Threaded Merge Sort (ThreadPool),100000,32,14865.00,14.87,true
+Multi-Threaded Merge Sort (ThreadPool),100000,33,14366.00,14.37,true
+Multi-Threaded Merge Sort (ThreadPool),100000,34,14102.00,14.10,true
+Multi-Threaded Merge Sort (ThreadPool),100000,35,14217.00,14.22,true
+Multi-Threaded Merge Sort (ThreadPool),100000,36,14423.00,14.42,true
+Multi-Threaded Merge Sort (ThreadPool),100000,37,14827.00,14.83,true
+Multi-Threaded Merge Sort (ThreadPool),100000,38,15206.00,15.21,true
+Multi-Threaded Merge Sort (ThreadPool),100000,39,14114.00,14.11,true
+Multi-Threaded Merge Sort (ThreadPool),100000,40,13749.00,13.75,true
+Multi-Threaded Merge Sort (ThreadPool),100000,41,14853.00,14.85,true
+Multi-Threaded Merge Sort (ThreadPool),100000,42,13387.00,13.39,true
+Multi-Threaded Merge Sort (ThreadPool),100000,43,14221.00,14.22,true
+Multi-Threaded Merge Sort (ThreadPool),100000,44,14732.00,14.73,true
+Multi-Threaded Merge Sort (ThreadPool),100000,45,15279.00,15.28,true
+Multi-Threaded Merge Sort (ThreadPool),100000,46,14662.00,14.66,true
+Multi-Threaded Merge Sort (ThreadPool),100000,47,14437.00,14.44,true
+Multi-Threaded Merge Sort (ThreadPool),100000,48,13633.00,13.63,true
+Multi-Threaded Merge Sort (ThreadPool),100000,49,14314.00,14.31,true
+Multi-Threaded Merge Sort (ThreadPool),100000,50,14098.00,14.10,true
+Multi-Threaded Merge Sort (ThreadPool),100000,51,14377.00,14.38,true
+Multi-Threaded Merge Sort (ThreadPool),100000,52,13950.00,13.95,true
+Multi-Threaded Merge Sort (ThreadPool),100000,53,14949.00,14.95,true
+Multi-Threaded Merge Sort (ThreadPool),100000,54,14769.00,14.77,true
+Multi-Threaded Merge Sort (ThreadPool),100000,55,14292.00,14.29,true
+Multi-Threaded Merge Sort (ThreadPool),100000,56,14478.00,14.48,true
+Multi-Threaded Merge Sort (ThreadPool),100000,57,14698.00,14.70,true
+Multi-Threaded Merge Sort (ThreadPool),100000,58,15429.00,15.43,true
+Multi-Threaded Merge Sort (ThreadPool),100000,59,14483.00,14.48,true
+Multi-Threaded Merge Sort (ThreadPool),100000,60,14943.00,14.94,true
+Multi-Threaded Merge Sort (ThreadPool),100000,61,15145.00,15.14,true
+Multi-Threaded Merge Sort (ThreadPool),100000,62,14680.00,14.68,true
+Multi-Threaded Merge Sort (ThreadPool),100000,63,14551.00,14.55,true
+Multi-Threaded Merge Sort (ThreadPool),100000,64,14686.00,14.69,true
+Multi-Threaded Merge Sort (ThreadPool),100000,65,13994.00,13.99,true
+Multi-Threaded Merge Sort (ThreadPool),100000,66,14147.00,14.15,true
+Multi-Threaded Merge Sort (ThreadPool),100000,67,14377.00,14.38,true
+Multi-Threaded Merge Sort (ThreadPool),100000,68,14797.00,14.80,true
+Multi-Threaded Merge Sort (ThreadPool),100000,69,17329.00,17.33,true
+Multi-Threaded Merge Sort (ThreadPool),100000,70,14879.00,14.88,true
+Multi-Threaded Merge Sort (ThreadPool),100000,71,14876.00,14.88,true
+Multi-Threaded Merge Sort (ThreadPool),100000,72,13903.00,13.90,true
+Multi-Threaded Merge Sort (ThreadPool),100000,73,15117.00,15.12,true
+Multi-Threaded Merge Sort (ThreadPool),100000,74,14313.00,14.31,true
+Multi-Threaded Merge Sort (ThreadPool),100000,75,14155.00,14.15,true
+Multi-Threaded Merge Sort (ThreadPool),100000,76,14785.00,14.79,true
+Multi-Threaded Merge Sort (ThreadPool),100000,77,13890.00,13.89,true
+Multi-Threaded Merge Sort (ThreadPool),100000,78,13949.00,13.95,true
+Multi-Threaded Merge Sort (ThreadPool),100000,79,13950.00,13.95,true
+Multi-Threaded Merge Sort (ThreadPool),100000,80,13682.00,13.68,true
+Multi-Threaded Merge Sort (ThreadPool),100000,81,14180.00,14.18,true
+Multi-Threaded Merge Sort (ThreadPool),100000,82,16746.00,16.75,true
+Multi-Threaded Merge Sort (ThreadPool),100000,83,15117.00,15.12,true
+Multi-Threaded Merge Sort (ThreadPool),100000,84,13898.00,13.90,true
+Multi-Threaded Merge Sort (ThreadPool),100000,85,13995.00,13.99,true
+Multi-Threaded Merge Sort (ThreadPool),100000,86,13943.00,13.94,true
+Multi-Threaded Merge Sort (ThreadPool),100000,87,15016.00,15.02,true
+Multi-Threaded Merge Sort (ThreadPool),100000,88,13537.00,13.54,true
+Multi-Threaded Merge Sort (ThreadPool),100000,89,14357.00,14.36,true
+Multi-Threaded Merge Sort (ThreadPool),100000,90,13464.00,13.46,true
+Multi-Threaded Merge Sort (ThreadPool),100000,91,13803.00,13.80,true
+Multi-Threaded Merge Sort (ThreadPool),100000,92,15481.00,15.48,true
+Multi-Threaded Merge Sort (ThreadPool),100000,93,14448.00,14.45,true
+Multi-Threaded Merge Sort (ThreadPool),100000,94,14440.00,14.44,true
+Multi-Threaded Merge Sort (ThreadPool),100000,95,13628.00,13.63,true
+Multi-Threaded Merge Sort (ThreadPool),100000,96,13372.00,13.37,true
+Multi-Threaded Merge Sort (ThreadPool),100000,97,14359.00,14.36,true
+Multi-Threaded Merge Sort (ThreadPool),100000,98,13559.00,13.56,true
+Multi-Threaded Merge Sort (ThreadPool),100000,99,14054.00,14.05,true
+Multi-Threaded Merge Sort (ThreadPool),100000,100,13803.00,13.80,true
+Quick Sort,100000,1,20068.00,20.07,true
+Quick Sort,100000,2,20382.00,20.38,true
+Quick Sort,100000,3,25192.00,25.19,true
+Quick Sort,100000,4,19972.00,19.97,true
+Quick Sort,100000,5,19696.00,19.70,true
+Quick Sort,100000,6,20381.00,20.38,true
+Quick Sort,100000,7,20533.00,20.53,true
+Quick Sort,100000,8,20413.00,20.41,true
+Quick Sort,100000,9,21251.00,21.25,true
+Quick Sort,100000,10,20752.00,20.75,true
+Quick Sort,100000,11,21079.00,21.08,true
+Quick Sort,100000,12,21047.00,21.05,true
+Quick Sort,100000,13,22455.00,22.45,true
+Quick Sort,100000,14,21776.00,21.78,true
+Quick Sort,100000,15,20586.00,20.59,true
+Quick Sort,100000,16,24408.00,24.41,true
+Quick Sort,100000,17,19346.00,19.35,true
+Quick Sort,100000,18,22032.00,22.03,true
+Quick Sort,100000,19,20663.00,20.66,true
+Quick Sort,100000,20,22418.00,22.42,true
+Quick Sort,100000,21,22523.00,22.52,true
+Quick Sort,100000,22,23619.00,23.62,true
+Quick Sort,100000,23,23131.00,23.13,true
+Quick Sort,100000,24,25034.00,25.03,true
+Quick Sort,100000,25,24562.00,24.56,true
+Quick Sort,100000,26,23763.00,23.76,true
+Quick Sort,100000,27,21987.00,21.99,true
+Quick Sort,100000,28,23352.00,23.35,true
+Quick Sort,100000,29,26463.00,26.46,true
+Quick Sort,100000,30,23358.00,23.36,true
+Quick Sort,100000,31,21933.00,21.93,true
+Quick Sort,100000,32,23990.00,23.99,true
+Quick Sort,100000,33,24612.00,24.61,true
+Quick Sort,100000,34,23774.00,23.77,true
+Quick Sort,100000,35,25038.00,25.04,true
+Quick Sort,100000,36,24857.00,24.86,true
+Quick Sort,100000,37,24239.00,24.24,true
+Quick Sort,100000,38,22467.00,22.47,true
+Quick Sort,100000,39,25027.00,25.03,true
+Quick Sort,100000,40,24289.00,24.29,true
+Quick Sort,100000,41,25364.00,25.36,true
+Quick Sort,100000,42,24901.00,24.90,true
+Quick Sort,100000,43,25254.00,25.25,true
+Quick Sort,100000,44,24759.00,24.76,true
+Quick Sort,100000,45,24628.00,24.63,true
+Quick Sort,100000,46,24782.00,24.78,true
+Quick Sort,100000,47,29106.00,29.11,true
+Quick Sort,100000,48,25882.00,25.88,true
+Quick Sort,100000,49,27253.00,27.25,true
+Quick Sort,100000,50,28660.00,28.66,true
+Quick Sort,100000,51,25964.00,25.96,true
+Quick Sort,100000,52,27201.00,27.20,true
+Quick Sort,100000,53,26122.00,26.12,true
+Quick Sort,100000,54,24048.00,24.05,true
+Quick Sort,100000,55,24519.00,24.52,true
+Quick Sort,100000,56,25021.00,25.02,true
+Quick Sort,100000,57,22672.00,22.67,true
+Quick Sort,100000,58,24284.00,24.28,true
+Quick Sort,100000,59,26328.00,26.33,true
+Quick Sort,100000,60,23795.00,23.80,true
+Quick Sort,100000,61,23593.00,23.59,true
+Quick Sort,100000,62,26060.00,26.06,true
+Quick Sort,100000,63,26010.00,26.01,true
+Quick Sort,100000,64,25432.00,25.43,true
+Quick Sort,100000,65,22659.00,22.66,true
+Quick Sort,100000,66,22784.00,22.78,true
+Quick Sort,100000,67,25782.00,25.78,true
+Quick Sort,100000,68,26354.00,26.35,true
+Quick Sort,100000,69,25469.00,25.47,true
+Quick Sort,100000,70,22131.00,22.13,true
+Quick Sort,100000,71,20903.00,20.90,true
+Quick Sort,100000,72,31281.00,31.28,true
+Quick Sort,100000,73,23858.00,23.86,true
+Quick Sort,100000,74,23714.00,23.71,true
+Quick Sort,100000,75,23921.00,23.92,true
+Quick Sort,100000,76,26139.00,26.14,true
+Quick Sort,100000,77,25489.00,25.49,true
+Quick Sort,100000,78,24170.00,24.17,true
+Quick Sort,100000,79,26419.00,26.42,true
+Quick Sort,100000,80,25551.00,25.55,true
+Quick Sort,100000,81,25247.00,25.25,true
+Quick Sort,100000,82,25055.00,25.05,true
+Quick Sort,100000,83,25773.00,25.77,true
+Quick Sort,100000,84,25673.00,25.67,true
+Quick Sort,100000,85,26560.00,26.56,true
+Quick Sort,100000,86,29249.00,29.25,true
+Quick Sort,100000,87,32837.00,32.84,true
+Quick Sort,100000,88,33836.00,33.84,true
+Quick Sort,100000,89,32764.00,32.76,true
+Quick Sort,100000,90,31636.00,31.64,true
+Quick Sort,100000,91,38140.00,38.14,true
+Quick Sort,100000,92,43797.00,43.80,true
+Quick Sort,100000,93,28886.00,28.89,true
+Quick Sort,100000,94,24835.00,24.84,true
+Quick Sort,100000,95,26168.00,26.17,true
+Quick Sort,100000,96,25521.00,25.52,true
+Quick Sort,100000,97,27786.00,27.79,true
+Quick Sort,100000,98,30126.00,30.13,true
+Quick Sort,100000,99,30493.00,30.49,true
+Quick Sort,100000,100,30633.00,30.63,true
+Heap Sort,100000,1,60014.00,60.01,true
+Heap Sort,100000,2,57067.00,57.07,true
+Heap Sort,100000,3,52959.00,52.96,true
+Heap Sort,100000,4,57154.00,57.15,true
+Heap Sort,100000,5,50871.00,50.87,true
+Heap Sort,100000,6,54754.00,54.75,true
+Heap Sort,100000,7,54612.00,54.61,true
+Heap Sort,100000,8,54589.00,54.59,true
+Heap Sort,100000,9,52626.00,52.63,true
+Heap Sort,100000,10,54514.00,54.51,true
+Heap Sort,100000,11,58703.00,58.70,true
+Heap Sort,100000,12,65890.00,65.89,true
+Heap Sort,100000,13,68084.00,68.08,true
+Heap Sort,100000,14,62072.00,62.07,true
+Heap Sort,100000,15,59524.00,59.52,true
+Heap Sort,100000,16,52969.00,52.97,true
+Heap Sort,100000,17,52472.00,52.47,true
+Heap Sort,100000,18,55751.00,55.75,true
+Heap Sort,100000,19,58166.00,58.17,true
+Heap Sort,100000,20,57883.00,57.88,true
+Heap Sort,100000,21,52238.00,52.24,true
+Heap Sort,100000,22,53118.00,53.12,true
+Heap Sort,100000,23,56026.00,56.03,true
+Heap Sort,100000,24,59723.00,59.72,true
+Heap Sort,100000,25,49067.00,49.07,true
+Heap Sort,100000,26,52479.00,52.48,true
+Heap Sort,100000,27,54687.00,54.69,true
+Heap Sort,100000,28,53971.00,53.97,true
+Heap Sort,100000,29,53828.00,53.83,true
+Heap Sort,100000,30,56672.00,56.67,true
+Heap Sort,100000,31,54115.00,54.12,true
+Heap Sort,100000,32,40801.00,40.80,true
+Heap Sort,100000,33,46801.00,46.80,true
+Heap Sort,100000,34,49943.00,49.94,true
+Heap Sort,100000,35,45512.00,45.51,true
+Heap Sort,100000,36,45168.00,45.17,true
+Heap Sort,100000,37,42982.00,42.98,true
+Heap Sort,100000,38,44245.00,44.24,true
+Heap Sort,100000,39,47347.00,47.35,true
+Heap Sort,100000,40,46065.00,46.06,true
+Heap Sort,100000,41,47407.00,47.41,true
+Heap Sort,100000,42,50120.00,50.12,true
+Heap Sort,100000,43,45198.00,45.20,true
+Heap Sort,100000,44,48291.00,48.29,true
+Heap Sort,100000,45,53296.00,53.30,true
+Heap Sort,100000,46,52591.00,52.59,true
+Heap Sort,100000,47,58535.00,58.53,true
+Heap Sort,100000,48,56947.00,56.95,true
+Heap Sort,100000,49,48561.00,48.56,true
+Heap Sort,100000,50,49847.00,49.85,true
+Heap Sort,100000,51,49341.00,49.34,true
+Heap Sort,100000,52,46147.00,46.15,true
+Heap Sort,100000,53,42065.00,42.06,true
+Heap Sort,100000,54,46883.00,46.88,true
+Heap Sort,100000,55,44538.00,44.54,true
+Heap Sort,100000,56,52505.00,52.51,true
+Heap Sort,100000,57,45280.00,45.28,true
+Heap Sort,100000,58,46403.00,46.40,true
+Heap Sort,100000,59,43113.00,43.11,true
+Heap Sort,100000,60,45724.00,45.72,true
+Heap Sort,100000,61,47333.00,47.33,true
+Heap Sort,100000,62,47328.00,47.33,true
+Heap Sort,100000,63,46090.00,46.09,true
+Heap Sort,100000,64,43610.00,43.61,true
+Heap Sort,100000,65,47871.00,47.87,true
+Heap Sort,100000,66,43910.00,43.91,true
+Heap Sort,100000,67,46462.00,46.46,true
+Heap Sort,100000,68,43462.00,43.46,true
+Heap Sort,100000,69,49691.00,49.69,true
+Heap Sort,100000,70,50776.00,50.78,true
+Heap Sort,100000,71,51339.00,51.34,true
+Heap Sort,100000,72,51183.00,51.18,true
+Heap Sort,100000,73,50222.00,50.22,true
+Heap Sort,100000,74,50705.00,50.70,true
+Heap Sort,100000,75,47297.00,47.30,true
+Heap Sort,100000,76,40292.00,40.29,true
+Heap Sort,100000,77,45090.00,45.09,true
+Heap Sort,100000,78,43536.00,43.54,true
+Heap Sort,100000,79,47007.00,47.01,true
+Heap Sort,100000,80,43301.00,43.30,true
+Heap Sort,100000,81,46874.00,46.87,true
+Heap Sort,100000,82,41023.00,41.02,true
+Heap Sort,100000,83,44354.00,44.35,true
+Heap Sort,100000,84,47408.00,47.41,true
+Heap Sort,100000,85,52128.00,52.13,true
+Heap Sort,100000,86,52732.00,52.73,true
+Heap Sort,100000,87,45039.00,45.04,true
+Heap Sort,100000,88,48705.00,48.70,true
+Heap Sort,100000,89,48883.00,48.88,true
+Heap Sort,100000,90,42878.00,42.88,true
+Heap Sort,100000,91,42457.00,42.46,true
+Heap Sort,100000,92,48924.00,48.92,true
+Heap Sort,100000,93,41322.00,41.32,true
+Heap Sort,100000,94,44884.00,44.88,true
+Heap Sort,100000,95,40692.00,40.69,true
+Heap Sort,100000,96,41693.00,41.69,true
+Heap Sort,100000,97,43009.00,43.01,true
+Heap Sort,100000,98,41595.00,41.59,true
+Heap Sort,100000,99,44089.00,44.09,true
+Heap Sort,100000,100,50009.00,50.01,true
+STL Sort (std::sort),100000,1,31882.00,31.88,true
+STL Sort (std::sort),100000,2,32054.00,32.05,true
+STL Sort (std::sort),100000,3,33856.00,33.86,true
+STL Sort (std::sort),100000,4,33297.00,33.30,true
+STL Sort (std::sort),100000,5,32988.00,32.99,true
+STL Sort (std::sort),100000,6,31802.00,31.80,true
+STL Sort (std::sort),100000,7,32632.00,32.63,true
+STL Sort (std::sort),100000,8,33744.00,33.74,true
+STL Sort (std::sort),100000,9,33780.00,33.78,true
+STL Sort (std::sort),100000,10,31462.00,31.46,true
+STL Sort (std::sort),100000,11,32761.00,32.76,true
+STL Sort (std::sort),100000,12,33058.00,33.06,true
+STL Sort (std::sort),100000,13,31136.00,31.14,true
+STL Sort (std::sort),100000,14,32202.00,32.20,true
+STL Sort (std::sort),100000,15,34118.00,34.12,true
+STL Sort (std::sort),100000,16,35814.00,35.81,true
+STL Sort (std::sort),100000,17,36448.00,36.45,true
+STL Sort (std::sort),100000,18,33909.00,33.91,true
+STL Sort (std::sort),100000,19,34460.00,34.46,true
+STL Sort (std::sort),100000,20,36806.00,36.81,true
+STL Sort (std::sort),100000,21,35503.00,35.50,true
+STL Sort (std::sort),100000,22,32893.00,32.89,true
+STL Sort (std::sort),100000,23,31362.00,31.36,true
+STL Sort (std::sort),100000,24,32576.00,32.58,true
+STL Sort (std::sort),100000,25,32774.00,32.77,true
+STL Sort (std::sort),100000,26,35124.00,35.12,true
+STL Sort (std::sort),100000,27,32855.00,32.85,true
+STL Sort (std::sort),100000,28,35321.00,35.32,true
+STL Sort (std::sort),100000,29,33853.00,33.85,true
+STL Sort (std::sort),100000,30,35041.00,35.04,true
+STL Sort (std::sort),100000,31,34232.00,34.23,true
+STL Sort (std::sort),100000,32,34930.00,34.93,true
+STL Sort (std::sort),100000,33,33388.00,33.39,true
+STL Sort (std::sort),100000,34,30610.00,30.61,true
+STL Sort (std::sort),100000,35,32330.00,32.33,true
+STL Sort (std::sort),100000,36,31625.00,31.62,true
+STL Sort (std::sort),100000,37,32915.00,32.91,true
+STL Sort (std::sort),100000,38,34069.00,34.07,true
+STL Sort (std::sort),100000,39,32837.00,32.84,true
+STL Sort (std::sort),100000,40,30073.00,30.07,true
+STL Sort (std::sort),100000,41,33295.00,33.30,true
+STL Sort (std::sort),100000,42,31637.00,31.64,true
+STL Sort (std::sort),100000,43,34749.00,34.75,true
+STL Sort (std::sort),100000,44,33267.00,33.27,true
+STL Sort (std::sort),100000,45,34776.00,34.78,true
+STL Sort (std::sort),100000,46,33106.00,33.11,true
+STL Sort (std::sort),100000,47,35049.00,35.05,true
+STL Sort (std::sort),100000,48,35805.00,35.80,true
+STL Sort (std::sort),100000,49,35470.00,35.47,true
+STL Sort (std::sort),100000,50,33546.00,33.55,true
+STL Sort (std::sort),100000,51,32980.00,32.98,true
+STL Sort (std::sort),100000,52,33969.00,33.97,true
+STL Sort (std::sort),100000,53,36147.00,36.15,true
+STL Sort (std::sort),100000,54,35772.00,35.77,true
+STL Sort (std::sort),100000,55,38299.00,38.30,true
+STL Sort (std::sort),100000,56,33438.00,33.44,true
+STL Sort (std::sort),100000,57,32361.00,32.36,true
+STL Sort (std::sort),100000,58,32624.00,32.62,true
+STL Sort (std::sort),100000,59,33496.00,33.50,true
+STL Sort (std::sort),100000,60,33823.00,33.82,true
+STL Sort (std::sort),100000,61,33571.00,33.57,true
+STL Sort (std::sort),100000,62,32186.00,32.19,true
+STL Sort (std::sort),100000,63,32943.00,32.94,true
+STL Sort (std::sort),100000,64,32701.00,32.70,true
+STL Sort (std::sort),100000,65,33214.00,33.21,true
+STL Sort (std::sort),100000,66,32267.00,32.27,true
+STL Sort (std::sort),100000,67,33851.00,33.85,true
+STL Sort (std::sort),100000,68,33144.00,33.14,true
+STL Sort (std::sort),100000,69,32529.00,32.53,true
+STL Sort (std::sort),100000,70,34174.00,34.17,true
+STL Sort (std::sort),100000,71,32485.00,32.48,true
+STL Sort (std::sort),100000,72,34243.00,34.24,true
+STL Sort (std::sort),100000,73,33552.00,33.55,true
+STL Sort (std::sort),100000,74,32579.00,32.58,true
+STL Sort (std::sort),100000,75,34664.00,34.66,true
+STL Sort (std::sort),100000,76,33080.00,33.08,true
+STL Sort (std::sort),100000,77,32488.00,32.49,true
+STL Sort (std::sort),100000,78,33676.00,33.68,true
+STL Sort (std::sort),100000,79,36070.00,36.07,true
+STL Sort (std::sort),100000,80,33091.00,33.09,true
+STL Sort (std::sort),100000,81,31002.00,31.00,true
+STL Sort (std::sort),100000,82,32618.00,32.62,true
+STL Sort (std::sort),100000,83,32670.00,32.67,true
+STL Sort (std::sort),100000,84,31172.00,31.17,true
+STL Sort (std::sort),100000,85,34136.00,34.14,true
+STL Sort (std::sort),100000,86,32207.00,32.21,true
+STL Sort (std::sort),100000,87,34485.00,34.48,true
+STL Sort (std::sort),100000,88,34366.00,34.37,true
+STL Sort (std::sort),100000,89,33858.00,33.86,true
+STL Sort (std::sort),100000,90,32365.00,32.37,true
+STL Sort (std::sort),100000,91,36804.00,36.80,true
+STL Sort (std::sort),100000,92,34021.00,34.02,true
+STL Sort (std::sort),100000,93,30552.00,30.55,true
+STL Sort (std::sort),100000,94,33866.00,33.87,true
+STL Sort (std::sort),100000,95,34094.00,34.09,true
+STL Sort (std::sort),100000,96,32678.00,32.68,true
+STL Sort (std::sort),100000,97,31875.00,31.88,true
+STL Sort (std::sort),100000,98,33854.00,33.85,true
+STL Sort (std::sort),100000,99,31359.00,31.36,true
+STL Sort (std::sort),100000,100,32485.00,32.48,true
