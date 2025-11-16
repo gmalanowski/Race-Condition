@@ -190,7 +190,7 @@ void stlSort(std::vector<int> &arr) {
 void mergeSortThreadPool(std::vector<int> &arr, ThreadPool &pool) {
     if (arr.size() <= 1) return;
 
-    // --- Chunk Calculation (Unchanged) ---
+    // --- Chunk Calculation ---
     constexpr size_t MIN_CHUNK_SIZE = 2048;
     size_t num_chunks = (arr.size() + MIN_CHUNK_SIZE - 1) / MIN_CHUNK_SIZE;
     if (num_chunks <= 1) {
@@ -199,7 +199,7 @@ void mergeSortThreadPool(std::vector<int> &arr, ThreadPool &pool) {
     }
     size_t chunk_size = (arr.size() + num_chunks - 1) / num_chunks;
 
-    // --- 1. Parallel Sort (Unchanged) ---
+    // --- 1. Parallel Sort  ---
     std::vector<std::future<void>> futures;
     futures.reserve(num_chunks);
     for (size_t i = 0; i < num_chunks; ++i) {
@@ -215,7 +215,7 @@ void mergeSortThreadPool(std::vector<int> &arr, ThreadPool &pool) {
         fut.get(); // Wait for all initial sorts
     }
 
-    // --- 2. Parallel Merge (Updated) ---
+    // --- 2. Parallel Merge ---
     size_t current_chunk_size = chunk_size;
     while (current_chunk_size < arr.size()) {
 
